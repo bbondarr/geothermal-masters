@@ -1,0 +1,79 @@
+@import '@aws-amplify/ui-react/styles.css';
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Text';
+  src: url('../fonts/nasalization-rg.woff2') format('woff2'),
+       url('../fonts/nasalization-rg.woff') format('woff');
+  font-weight: 100; /* Ultra/Extra-extra */
+  font-style: normal; 
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Text';
+  src: url('../fonts/nasalization-rg.woff2') format('woff2'),
+       url('../fonts/nasalization-rg.woff') format('woff');
+  font-weight: 200; /* Extra/Extra */
+  font-style: normal; 
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Text';
+  src: url('../fonts/nasalization-rg.woff2') format('woff2'),
+       url('../fonts/nasalization-rg.woff') format('woff');
+  font-weight: 300; /* Thin/Light */
+  font-style: normal; 
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Text';
+  src: url('../fonts/nasalization-rg.woff2') format('woff2'),
+       url('../fonts/nasalization-rg.woff') format('woff');
+  font-weight: 400; /* Regular/Normal */
+  font-style: normal; 
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Text';
+  src: url('../fonts/nasalization-rg.woff2') format('woff2'),
+       url('../fonts/nasalization-rg.woff') format('woff');
+  font-weight: 500; /* Medium */
+  font-style: normal; 
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Text';
+  src: url('../fonts/nasalization-rg.woff2') format('woff2'),
+       url('../fonts/nasalization-rg.woff') format('woff');
+  font-weight: 600; /* Semi/Demi */
+  font-style: normal; 
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Text';
+  src: url('../fonts/nasalization-rg.woff2') format('woff2'),
+       url('../fonts/nasalization-rg.woff') format('woff');
+  font-weight: 700; /* Bold */
+  font-style: normal; 
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk Text';
+  src: url('../fonts/nasalization-rg.woff2') format('woff2'),
+       url('../fonts/nasalization-rg.woff') format('woff');
+  font-weight: 800; /* Extra/Ultra */
+  font-style: normal; 
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

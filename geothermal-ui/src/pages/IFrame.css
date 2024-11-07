@@ -1,0 +1,20 @@
+.optimalZoomBtn {
+  font-size: 1rem !important;
+  margin: 0 0 2rem 7rem !important;
+  text-transform: none !important;
+  color: #576965 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  border-bottom: 1px solid #576965 !important
+}
+
+.optimalZoomBtn:hover {
+  color: black !important;
+  background-color: unset !important;
+}
+
+@media screen and (max-width: 700px) {
+  .optimalZoomBtn {
+    margin-left: 2rem !important;
+  }
+}

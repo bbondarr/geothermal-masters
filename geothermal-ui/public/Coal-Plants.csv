@@ -1,0 +1,542 @@
+﻿Entity Name,Plant Name,Plant State,County,Nameplate Capacity (MW),Technology,Latitude,Longitude
+Sierra Pacific Power Co,North Valmy,NV,Humboldt,277.2,Conventional Steam Coal,40.881317,-117.1516
+Sierra Pacific Power Co,North Valmy,NV,Humboldt,289.8,Conventional Steam Coal,40.881317,-117.1516
+"Nevada Gold Energy, LLC",TS Power Plant,NV,Eureka,242,Conventional Steam Coal,40.7461,-116.5297
+The Amalgamated Sugar Co,Amalgamated Sugar Twin Falls,ID,Twin Falls,6.2,Conventional Steam Coal,42.5328,-114.4328
+Los Angeles Department of Water & Power,Intermountain Power Project,UT,Millard,820,Conventional Steam Coal,39.509731,-112.5802
+Los Angeles Department of Water & Power,Intermountain Power Project,UT,Millard,820,Conventional Steam Coal,39.509731,-112.5802
+Arizona Electric Pwr Coop Inc,Apache Station,AZ,Cochise,204,Conventional Steam Coal,32.0603,-109.8931
+Searles Valley Minerals Operations Inc.,Argus Cogen Plant,CA,San Bernardino,7.5,Conventional Steam Coal,35.765,-117.3833
+Searles Valley Minerals Operations Inc.,Argus Cogen Plant,CA,San Bernardino,27.5,Conventional Steam Coal,35.765,-117.3833
+Searles Valley Minerals Operations Inc.,Argus Cogen Plant,CA,San Bernardino,27.5,Conventional Steam Coal,35.765,-117.3833
+Tucson Electric Power Co,Springerville,AZ,Apache,424.8,Conventional Steam Coal,34.3186,-109.1639
+Tucson Electric Power Co,Springerville,AZ,Apache,424.8,Conventional Steam Coal,34.3186,-109.1639
+Tucson Electric Power Co,Springerville,AZ,Apache,458.1,Conventional Steam Coal,34.3186,-109.1639
+Tucson Electric Power Co,Springerville,AZ,Apache,458.1,Conventional Steam Coal,34.3186,-109.1639
+Luminant Generation Company LLC,Martin Lake,TX,Rusk,793.2,Conventional Steam Coal,32.2606,-94.5706
+Luminant Generation Company LLC,Martin Lake,TX,Rusk,793.2,Conventional Steam Coal,32.2606,-94.5706
+Luminant Generation Company LLC,Martin Lake,TX,Rusk,793.2,Conventional Steam Coal,32.2606,-94.5706
+Southwestern Electric Power Co,Pirkey,TX,Harrison,721,Conventional Steam Coal,32.4607,-94.4852
+Public Service Co of Colorado,Hayden,CO,Routt,190,Conventional Steam Coal,40.4856,-107.185
+Public Service Co of Colorado,Hayden,CO,Routt,275.4,Conventional Steam Coal,40.4856,-107.185
+Southwestern Electric Power Co,Welsh,TX,Titus,558,Conventional Steam Coal,33.05522,-94.83999
+Southwestern Electric Power Co,Welsh,TX,Titus,558,Conventional Steam Coal,33.05522,-94.83999
+Salt River Project,Coronado,AZ,Apache,410.9,Conventional Steam Coal,34.5789,-109.2708
+Salt River Project,Coronado,AZ,Apache,410.9,Conventional Steam Coal,34.5789,-109.2708
+Southwestern Electric Power Co,John W Turk Jr Power Plant,AR,Hempstead,609,Conventional Steam Coal,33.649722,-93.81194
+NRG Texas Power LLC,Limestone,TX,Limestone,893,Conventional Steam Coal,31.4219,-96.2525
+NRG Texas Power LLC,Limestone,TX,Limestone,956.8,Conventional Steam Coal,31.4219,-96.2525
+Luminant Generation Company LLC,Oak Grove (TX),TX,Robertson,916.8,Conventional Steam Coal,31.1803,-96.4866
+Luminant Generation Company LLC,Oak Grove (TX),TX,Robertson,878.6,Conventional Steam Coal,31.1803,-96.4866
+"Tri-State G & T Assn, Inc",Craig (CO),CO,Moffat,446.4,Conventional Steam Coal,40.4627,-107.5912
+"Tri-State G & T Assn, Inc",Craig (CO),CO,Moffat,446.4,Conventional Steam Coal,40.4627,-107.5912
+"Tri-State G & T Assn, Inc",Craig (CO),CO,Moffat,534.8,Conventional Steam Coal,40.4627,-107.5912
+Arizona Public Service Co,Four Corners,NM,San Juan,818.1,Conventional Steam Coal,36.69,-108.4814
+Arizona Public Service Co,Four Corners,NM,San Juan,818.1,Conventional Steam Coal,36.69,-108.4814
+Cleco Power LLC,Brame Energy Center,LA,Rapides,558,Conventional Steam Coal,31.395,-92.71667
+PacifiCorp,Naughton,WY,Lincoln,192,Conventional Steam Coal,41.7581,-110.5983
+PacifiCorp,Naughton,WY,Lincoln,256,Conventional Steam Coal,41.7581,-110.5983
+Sandy Creek Energy Associates LP,Sandy Creek Energy Station,TX,McLennan,1008,Conventional Steam Coal,31.474378,-96.95715
+PacifiCorp,Huntington,UT,Emery,541.3,Conventional Steam Coal,39.3792,-111.0781
+PacifiCorp,Huntington,UT,Emery,496,Conventional Steam Coal,39.3792,-111.0781
+Coleto Creek Power LP,Coleto Creek,TX,Goliad,622.4,Conventional Steam Coal,28.7128,-97.21417
+"Major Oak Power, LLC",Major Oak Power,TX,Robertson,174.6,Conventional Steam Coal,31.091925,-96.69503
+"Major Oak Power, LLC",Major Oak Power,TX,Robertson,174.6,Conventional Steam Coal,31.091925,-96.69503
+Public Service Co of Colorado,Comanche (CO),CO,Pueblo,382.5,Conventional Steam Coal,38.2081,-104.5747
+Public Service Co of Colorado,Comanche (CO),CO,Pueblo,396,Conventional Steam Coal,38.2081,-104.5747
+Public Service Co of Colorado,Comanche (CO),CO,Pueblo,856.8,Conventional Steam Coal,38.2081,-104.5747
+PacifiCorp,Hunter,UT,Emery,525,Conventional Steam Coal,39.1747,-111.0289
+PacifiCorp,Hunter,UT,Emery,525,Conventional Steam Coal,39.1747,-111.0289
+PacifiCorp,Hunter,UT,Emery,527.2,Conventional Steam Coal,39.1747,-111.0289
+Lower Colorado River Authority,Fayette Power Project,TX,Fayette,615,Conventional Steam Coal,29.9172,-96.7506
+Lower Colorado River Authority,Fayette Power Project,TX,Fayette,615,Conventional Steam Coal,29.9172,-96.7506
+Lower Colorado River Authority,Fayette Power Project,TX,Fayette,460,Conventional Steam Coal,29.9172,-96.7506
+"San Miguel Electric Coop, Inc",San Miguel,TX,Atascosa,410,Conventional Steam Coal,28.7044,-98.4775
+Tata Chemicals Partners,General Chemical,WY,Sweetwater,15,Conventional Steam Coal,41.5933,-109.7542
+Tata Chemicals Partners,General Chemical,WY,Sweetwater,15,Conventional Steam Coal,41.5933,-109.7542
+"Genesis Alkali, LLC",Genesis Alkali,WY,Sweetwater,3.5,Conventional Steam Coal,41.621667,-109.8119
+"Genesis Alkali, LLC",Genesis Alkali,WY,Sweetwater,3.5,Conventional Steam Coal,41.621667,-109.8119
+"Genesis Alkali, LLC",Genesis Alkali,WY,Sweetwater,4,Conventional Steam Coal,41.621667,-109.8119
+"Genesis Alkali, LLC",Genesis Alkali,WY,Sweetwater,10,Conventional Steam Coal,41.621667,-109.8119
+"Genesis Alkali, LLC",Genesis Alkali,WY,Sweetwater,10,Conventional Steam Coal,41.621667,-109.8119
+"Genesis Alkali, LLC",Genesis Alkali,WY,Sweetwater,10,Conventional Steam Coal,41.621667,-109.8119
+City of Colorado Springs - (CO),Ray D Nixon,CO,El Paso,207,Conventional Steam Coal,38.633451,-104.7058
+NRG Texas Power LLC,W A Parish,TX,Fort Bend,734.1,Conventional Steam Coal,29.4828,-95.6311
+NRG Texas Power LLC,W A Parish,TX,Fort Bend,734.1,Conventional Steam Coal,29.4828,-95.6311
+NRG Texas Power LLC,W A Parish,TX,Fort Bend,614.6,Conventional Steam Coal,29.4828,-95.6311
+NRG Texas Power LLC,W A Parish,TX,Fort Bend,654,Conventional Steam Coal,29.4828,-95.6311
+Sunnyside Cogeneration Assoc,Sunnyside Cogen Associates,UT,Carbon,58.1,Conventional Steam Coal,39.5472,-110.3917
+MidAmerican Energy Co,George Neal North,IA,Woodbury,584.1,Conventional Steam Coal,42.299794,-96.36171
+MidAmerican Energy Co,George Neal South,IA,Woodbury,695.9,Conventional Steam Coal,42.3006,-96.3617
+Great River Energy,Spiritwood Station,ND,Stutsman,106.2,Conventional Steam Coal,46.926423,-98.49971
+"Panther Creek Power Operating, LLC",Panther Creek Energy Facility,PA,Carbon,94,Conventional Steam Coal,40.8556,-75.8781
+Virginia Electric & Power Co,Mt Storm,WV,Grant,570.2,Conventional Steam Coal,39.2008,-79.2636
+Virginia Electric & Power Co,Mt Storm,WV,Grant,570.2,Conventional Steam Coal,39.2008,-79.2636
+Virginia Electric & Power Co,Mt Storm,WV,Grant,522,Conventional Steam Coal,39.2008,-79.2636
+Monongahela Power Co,FirstEnergy Harrison Power Station,WV,Harrison,684,Conventional Steam Coal,39.384167,-80.3325
+Monongahela Power Co,FirstEnergy Harrison Power Station,WV,Harrison,684,Conventional Steam Coal,39.384167,-80.3325
+Monongahela Power Co,FirstEnergy Harrison Power Station,WV,Harrison,684,Conventional Steam Coal,39.384167,-80.3325
+American Bituminous Power LP,Grant Town Power Plant,WV,Marion,95.7,Conventional Steam Coal,39.561831,-80.16314
+Gilberton Power Co,John B Rich Memorial Power Station,PA,Schuylkill,88.4,Conventional Steam Coal,40.7903,-76.1983
+Schuylkill Energy Resource Inc,St Nicholas Cogen Project,PA,Schuylkill,99.2,Conventional Steam Coal,40.8222,-76.1736
+Sidney Sugars Incorporated,Sidney MT Plant,MT,Richland,2,Conventional Steam Coal,47.717222,-104.1356
+Sidney Sugars Incorporated,Sidney MT Plant,MT,Richland,2,Conventional Steam Coal,47.717222,-104.1356
+Mississippi Power Co,Victor J Daniel Jr,MS,Jackson,548.3,Conventional Steam Coal,30.5322,-88.5553
+Mississippi Power Co,Victor J Daniel Jr,MS,Jackson,548.3,Conventional Steam Coal,30.5322,-88.5553
+Talen Montana LLC,Colstrip,MT,Rosebud,823.7,Conventional Steam Coal,45.8831,-106.614
+Talen Montana LLC,Colstrip,MT,Rosebud,823.7,Conventional Steam Coal,45.8831,-106.614
+Basin Electric Power Coop,Laramie River Station,WY,Platte,621,Conventional Steam Coal,42.108889,-104.8825
+Basin Electric Power Coop,Laramie River Station,WY,Platte,621,Conventional Steam Coal,42.108889,-104.8825
+Basin Electric Power Coop,Laramie River Station,WY,Platte,621,Conventional Steam Coal,42.108889,-104.8825
+"Western Farmers Elec Coop, Inc",Hugo,OK,Choctaw,446,Conventional Steam Coal,34.0158,-95.3206
+Nebraska Public Power District,Gerald Gentleman,NE,Lincoln,681.3,Conventional Steam Coal,41.0808,-101.1408
+Nebraska Public Power District,Gerald Gentleman,NE,Lincoln,681.3,Conventional Steam Coal,41.0808,-101.1408
+TalenEnergy Montour LLC,TalenEnergy Montour,PA,Montour,864.9,Conventional Steam Coal,41.0714,-76.6672
+TalenEnergy Montour LLC,TalenEnergy Montour,PA,Montour,893,Conventional Steam Coal,41.0714,-76.6672
+Deseret Generation & Tran Coop,Bonanza,UT,Uintah,499.5,Conventional Steam Coal,40.0864,-109.2844
+Western Sugar Cooperative,Western Sugar Coop - Scottsbluff,NE,Scotts Bluff,5,Conventional Steam Coal,41.85887,-103.6344
+Alabama Power Co,Barry,AL,Mobile,403.7,Conventional Steam Coal,31.0069,-88.0103
+Alabama Power Co,Barry,AL,Mobile,788.8,Conventional Steam Coal,31.0069,-88.0103
+Colstrip Energy LP,Colstrip Energy LP,MT,Rosebud,46.1,Conventional Steam Coal,45.9752,-106.6547
+Monongahela Power Co,FirstEnergy Fort Martin Power Station,WV,Monongalia,576,Conventional Steam Coal,39.710833,-79.9275
+Monongahela Power Co,FirstEnergy Fort Martin Power Station,WV,Monongalia,576,Conventional Steam Coal,39.710833,-79.9275
+Morgantown Energy Associates,Morgantown Energy Facility,WV,Monongalia,68.9,Conventional Steam Coal,39.6397,-79.96056
+"Longview Power, LLC",Longview Power Plant,WV,Monongalia,807.5,Conventional Steam Coal,39.707893,-79.95897
+Arizona Public Service Co,Cholla,AZ,Navajo,113.6,Conventional Steam Coal,34.9394,-110.3033
+Arizona Public Service Co,Cholla,AZ,Navajo,312.3,Conventional Steam Coal,34.9394,-110.3033
+City Utilities of Springfield - (MO),John Twitty Energy Center,MO,Greene,194,Conventional Steam Coal,37.151706,-93.38804
+City Utilities of Springfield - (MO),John Twitty Energy Center,MO,Greene,300,Conventional Steam Coal,37.151706,-93.38804
+WestRock Corp,Covington Facility,VA,Covington City,10.5,Conventional Steam Coal,37.799722,-79.9947
+WestRock Corp,Covington Facility,VA,Covington City,34,Conventional Steam Coal,37.799722,-79.9947
+Indian River Operations Inc,Indian River Generating Station,DE,Sussex,445.5,Conventional Steam Coal,38.5857,-75.2341
+Virginia Electric & Power Co,Virginia City Hybrid Energy Center,VA,Wise,668,Conventional Steam Coal,36.916389,-82.33806
+City of Fremont - (NE),Lon Wright,NE,Dodge,16.5,Conventional Steam Coal,41.4281,-96.4623
+City of Fremont - (NE),Lon Wright,NE,Dodge,22,Conventional Steam Coal,41.4281,-96.4623
+City of Fremont - (NE),Lon Wright,NE,Dodge,91.5,Conventional Steam Coal,41.4281,-96.4623
+Archer Daniels Midland Co,Archer Daniels Midland Columbus,NE,Platte,71.4,Conventional Steam Coal,41.416442,-97.28633
+South Carolina Public Service Authority,Winyah,SC,Georgetown,315,Conventional Steam Coal,33.33184,-79.35724
+South Carolina Public Service Authority,Winyah,SC,Georgetown,315,Conventional Steam Coal,33.33184,-79.35724
+South Carolina Public Service Authority,Winyah,SC,Georgetown,315,Conventional Steam Coal,33.33184,-79.35724
+South Carolina Public Service Authority,Winyah,SC,Georgetown,315,Conventional Steam Coal,33.33184,-79.35724
+Wisconsin Power & Light Co,Columbia (WI),WI,Columbia,556,Conventional Steam Coal,43.4864,-89.4203
+Wisconsin Power & Light Co,Columbia (WI),WI,Columbia,556,Conventional Steam Coal,43.4864,-89.4203
+KeyCon Operating LLC,Conemaugh,PA,Indiana,975.5,Conventional Steam Coal,40.3842,-79.0611
+KeyCon Operating LLC,Conemaugh,PA,Indiana,975.5,Conventional Steam Coal,40.3842,-79.0611
+Seward Generating LLC,Seward (PA),PA,Indiana,585,Conventional Steam Coal,40.40625,-79.03366
+Mount Carmel Cogen Inc,Foster Wheeler Mt Carmel Cogen,PA,Northumberland,47.3,Conventional Steam Coal,40.811189,-76.45295
+"Inter-Power/AhlCon Partners, L.P.",Colver Green Energy,PA,Cambria,118,Conventional Steam Coal,40.55,-78.8
+Ebensburg Power Co,Ebensburg Power,PA,Cambria,57.6,Conventional Steam Coal,40.455,-78.7472
+Western Sugar Cooperative  - Billings,Western Sugar Cooperative - Billings,MT,Yellowstone,1.5,Conventional Steam Coal,45.765346,-108.4992
+Aurora Energy LLC,Aurora Energy LLC Chena,AK,Fairbanks North Star,5,Conventional Steam Coal,64.847743,-147.7351
+Aurora Energy LLC,Aurora Energy LLC Chena,AK,Fairbanks North Star,2.5,Conventional Steam Coal,64.847743,-147.7351
+Aurora Energy LLC,Aurora Energy LLC Chena,AK,Fairbanks North Star,20,Conventional Steam Coal,64.847743,-147.7351
+Golden Valley Elec Assn Inc,Healy,AK,Denali,28,Conventional Steam Coal,63.8542,-148.95
+Golden Valley Elec Assn Inc,Healy,AK,Denali,62,Conventional Steam Coal,63.8542,-148.95
+Doyon Utilities - Ft. Wainwright,Utility Plants Section,AK,Fairbanks North Star,5,Conventional Steam Coal,64.825601,-147.6486
+Doyon Utilities - Ft. Wainwright,Utility Plants Section,AK,Fairbanks North Star,5,Conventional Steam Coal,64.825601,-147.6486
+Doyon Utilities - Ft. Wainwright,Utility Plants Section,AK,Fairbanks North Star,5,Conventional Steam Coal,64.825601,-147.6486
+Doyon Utilities - Ft. Wainwright,Utility Plants Section,AK,Fairbanks North Star,5,Conventional Steam Coal,64.825601,-147.6486
+U S Air Force-Eielson AFB,Eielson AFB Central Heat & Power Plant,AK,Fairbanks North Star,2.5,Conventional Steam Coal,64.67141,-147.076
+U S Air Force-Eielson AFB,Eielson AFB Central Heat & Power Plant,AK,Fairbanks North Star,2.5,Conventional Steam Coal,64.67141,-147.076
+U S Air Force-Eielson AFB,Eielson AFB Central Heat & Power Plant,AK,Fairbanks North Star,5,Conventional Steam Coal,64.67141,-147.076
+U S Air Force-Eielson AFB,Eielson AFB Central Heat & Power Plant,AK,Fairbanks North Star,5,Conventional Steam Coal,64.67141,-147.076
+U S Air Force-Eielson AFB,Eielson AFB Central Heat & Power Plant,AK,Fairbanks North Star,10,Conventional Steam Coal,64.67141,-147.076
+University of Alaska,University of Alaska Fairbanks,AK,Fairbanks North Star,1.5,Conventional Steam Coal,64.854171,-147.8221
+University of Alaska,University of Alaska Fairbanks,AK,Fairbanks North Star,1.5,Conventional Steam Coal,64.854171,-147.8221
+University of Alaska,University of Alaska Fairbanks,AK,Fairbanks North Star,10,Conventional Steam Coal,64.854171,-147.8221
+University of Alaska,University of Alaska Fairbanks,AK,Fairbanks North Star,17,Conventional Steam Coal,64.854171,-147.8221
+Entergy Arkansas LLC,White Bluff,AR,Jefferson,900,Conventional Steam Coal,34.4228,-92.1406
+Entergy Arkansas LLC,White Bluff,AR,Jefferson,900,Conventional Steam Coal,34.4228,-92.1406
+"Rausch Creek Generation, LLC",Westwood Generation LLC,PA,Schuylkill,36,Conventional Steam Coal,40.6191,-76.45
+Platte River Power Authority,Rawhide,CO,Larimer,293.6,Conventional Steam Coal,40.860905,-105.0212
+City of Hastings - (NE),Whelan Energy Center,NE,Adams,76.3,Conventional Steam Coal,40.580872,-98.31244
+City of Hastings - (NE),Whelan Energy Center,NE,Adams,248,Conventional Steam Coal,40.580872,-98.31244
+PacifiCorp,Jim Bridger,WY,Sweetwater,608.3,Conventional Steam Coal,41.7378,-108.7875
+PacifiCorp,Jim Bridger,WY,Sweetwater,617,Conventional Steam Coal,41.7378,-108.7875
+PacifiCorp,Jim Bridger,WY,Sweetwater,608.3,Conventional Steam Coal,41.7378,-108.7875
+PacifiCorp,Jim Bridger,WY,Sweetwater,608.3,Conventional Steam Coal,41.7378,-108.7875
+Omaha Public Power District,Nebraska City,NE,Otoe,651.6,Conventional Steam Coal,40.6214,-95.7764
+Omaha Public Power District,Nebraska City,NE,Otoe,738,Conventional Steam Coal,40.6214,-95.7764
+Basin Electric Power Coop,Antelope Valley,ND,Mercer,477,Conventional Steam Coal,47.370542,-101.8357
+Basin Electric Power Coop,Antelope Valley,ND,Mercer,477,Conventional Steam Coal,47.370542,-101.8357
+Otter Tail Power Co,Coyote,ND,Mercer,450,Conventional Steam Coal,47.221447,-101.8157
+Heorot Power Management,Hardin Generator Project,MT,Big Horn,115.7,Conventional Steam Coal,45.7578,-107.6
+City of Grand Island - (NE),Platte,NE,Hall,109.8,Conventional Steam Coal,40.854765,-98.34822
+"South Carolina Genertg Co, Inc",Williams,SC,Berkeley,659.7,Conventional Steam Coal,33.0158,-79.9297
+Louisiana Generating LLC,Big Cajun 2,LA,Pointe Coupee,657.9,Conventional Steam Coal,30.7261,-91.3692
+Louisiana Generating LLC,Big Cajun 2,LA,Pointe Coupee,619,Conventional Steam Coal,30.7261,-91.3692
+"Hallador Power Company, LLC",Merom,IN,Sullivan,540,Conventional Steam Coal,39.0694,-87.5108
+"Hallador Power Company, LLC",Merom,IN,Sullivan,540,Conventional Steam Coal,39.0694,-87.5108
+Northern Indiana Pub Serv Co,R M Schahfer,IN,Jasper,423.5,Conventional Steam Coal,41.2164,-87.0261
+Northern Indiana Pub Serv Co,R M Schahfer,IN,Jasper,423.5,Conventional Steam Coal,41.2164,-87.0261
+"EIF Northampton GP, LLC",Northampton Generating Company LP,PA,Northampton,134.1,Conventional Steam Coal,40.6917,-75.4792
+Illinois Power Resources Generating LLC,E D Edwards,IL,Peoria,280.5,Conventional Steam Coal,40.5958,-89.6631
+Illinois Power Resources Generating LLC,E D Edwards,IL,Peoria,363.8,Conventional Steam Coal,40.5958,-89.6631
+Midwest Generations EME LLC,Powerton,IL,Tazewell,892.8,Conventional Steam Coal,40.5408,-89.6786
+Midwest Generations EME LLC,Powerton,IL,Tazewell,892.8,Conventional Steam Coal,40.5408,-89.6786
+Omaha Public Power District,North Omaha,NE,Douglas,136,Conventional Steam Coal,41.32909,-95.94466
+Omaha Public Power District,North Omaha,NE,Douglas,217.6,Conventional Steam Coal,41.32909,-95.94466
+Virginia Electric & Power Co,Chesterfield,VA,Chesterfield,359,Conventional Steam Coal,37.3822,-77.3833
+Virginia Electric & Power Co,Chesterfield,VA,Chesterfield,693.9,Conventional Steam Coal,37.3822,-77.3833
+Evergy Metro,Iatan,MO,Platte,726,Conventional Steam Coal,39.4472,-94.98
+Evergy Metro,Iatan,MO,Platte,999,Conventional Steam Coal,39.4472,-94.98
+City of Springfield - (IL),Dallman,IL,Sangamon,207.3,Conventional Steam Coal,39.754803,-89.60239
+City of Springfield - (IL),Dallman,IL,Sangamon,230.1,Conventional Steam Coal,39.754803,-89.60239
+NRG Homer City Services LLC,Homer City Generating Station,PA,Indiana,660,Conventional Steam Coal,40.512825,-79.19611
+NRG Homer City Services LLC,Homer City Generating Station,PA,Indiana,660,Conventional Steam Coal,40.512825,-79.19611
+NRG Homer City Services LLC,Homer City Generating Station,PA,Indiana,692,Conventional Steam Coal,40.512825,-79.19611
+Scrubgrass Reclamation CO. LP.,Scrubgrass Reclamation CO. LP.,PA,Venango,94.7,Conventional Steam Coal,41.2691,-79.8134
+Archer Daniels Midland Co,Archer Daniels Midland Clinton,IA,Clinton,75,Conventional Steam Coal,41.8206,-90.2097
+Archer Daniels Midland Co,Archer Daniels Midland Clinton,IA,Clinton,105,Conventional Steam Coal,41.8206,-90.2097
+JEA,Northside Generating Station,FL,Duval,297.5,Conventional Steam Coal,30.4172,-81.5525
+JEA,Northside Generating Station,FL,Duval,297.5,Conventional Steam Coal,30.4172,-81.5525
+Archer Daniels Midland Co,Archer Daniels Midland Lincoln,NE,Lancaster,7.9,Conventional Steam Coal,40.866463,-96.61449
+South Carolina Public Service Authority,Cross,SC,Berkeley,590.9,Conventional Steam Coal,33.371506,-80.11324
+South Carolina Public Service Authority,Cross,SC,Berkeley,556.2,Conventional Steam Coal,33.371506,-80.11324
+South Carolina Public Service Authority,Cross,SC,Berkeley,591,Conventional Steam Coal,33.371506,-80.11324
+South Carolina Public Service Authority,Cross,SC,Berkeley,652,Conventional Steam Coal,33.371506,-80.11324
+Brunner Island LLC,Brunner Island,PA,York,363.3,Conventional Steam Coal,40.096111,-76.6962
+Brunner Island LLC,Brunner Island,PA,York,405,Conventional Steam Coal,40.096111,-76.6962
+Brunner Island LLC,Brunner Island,PA,York,847.8,Conventional Steam Coal,40.096111,-76.6962
+MidAmerican Energy Co,Walter Scott Jr Energy Center,IA,Pottawattamie,725.8,Conventional Steam Coal,41.18,-95.8408
+MidAmerican Energy Co,Walter Scott Jr Energy Center,IA,Pottawattamie,922.5,Conventional Steam Coal,41.18,-95.8408
+"Evergy Kansas Central, Inc",Jeffrey Energy Center,KS,Pottawatomie,720,Conventional Steam Coal,39.286453,-96.11723
+"Evergy Kansas Central, Inc",Jeffrey Energy Center,KS,Pottawatomie,720,Conventional Steam Coal,39.286453,-96.11723
+"Evergy Kansas Central, Inc",Jeffrey Energy Center,KS,Pottawatomie,720,Conventional Steam Coal,39.286453,-96.11723
+Evergy Metro,Hawthorn,MO,Jackson,569,Conventional Steam Coal,39.1306,-94.4778
+MidAmerican Energy Co,Louisa,IA,Louisa,811.9,Conventional Steam Coal,41.3181,-91.0931
+Interstate Power and Light Co,Burlington (IA),IA,Des Moines,212,Conventional Steam Coal,40.7412,-91.11667
+Entergy Arkansas LLC,Independence Steam Electric Station,AR,Independence,900,Conventional Steam Coal,35.678442,-91.40876
+Entergy Arkansas LLC,Independence Steam Electric Station,AR,Independence,900,Conventional Steam Coal,35.678442,-91.40876
+Interstate Power and Light Co,Prairie Creek,IA,Linn,14.6,Conventional Steam Coal,41.944039,-91.63917
+Interstate Power and Light Co,Prairie Creek,IA,Linn,50,Conventional Steam Coal,41.944039,-91.63917
+Archer Daniels Midland Co,Archer Daniels Midland Cedar Rapids,IA,Linn,31,Conventional Steam Coal,41.9221,-91.6875
+Archer Daniels Midland Co,Archer Daniels Midland Cedar Rapids,IA,Linn,31,Conventional Steam Coal,41.9221,-91.6875
+Archer Daniels Midland Co,Archer Daniels Midland Cedar Rapids,IA,Linn,31,Conventional Steam Coal,41.9221,-91.6875
+Archer Daniels Midland Co,Archer Daniels Midland Cedar Rapids,IA,Linn,31,Conventional Steam Coal,41.9221,-91.6875
+Archer Daniels Midland Co,Archer Daniels Midland Cedar Rapids,IA,Linn,31,Conventional Steam Coal,41.9221,-91.6875
+Archer Daniels Midland Co,Archer Daniels Midland Cedar Rapids,IA,Linn,101.1,Conventional Steam Coal,41.9221,-91.6875
+NRG Energy Services - Plum Point,Plum Point Energy Station,AR,Mississippi,720,Conventional Steam Coal,35.6644,-89.9489
+"Choctaw Generation L.P, L.L.L.P.",Red Hills Generating Facility,MS,Choctaw,513.7,Conventional Steam Coal,33.3761,-89.2183
+Board of Water Electric & Communications,Muscatine Plant #1,IA,Muscatine,25,Conventional Steam Coal,41.3917,-91.0569
+Board of Water Electric & Communications,Muscatine Plant #1,IA,Muscatine,75,Conventional Steam Coal,41.3917,-91.0569
+Board of Water Electric & Communications,Muscatine Plant #1,IA,Muscatine,18,Conventional Steam Coal,41.3917,-91.0569
+Board of Water Electric & Communications,Muscatine Plant #1,IA,Muscatine,175.5,Conventional Steam Coal,41.3917,-91.0569
+Nebraska Public Power District,Sheldon,NE,Lancaster,108.8,Conventional Steam Coal,40.5589,-96.7847
+Nebraska Public Power District,Sheldon,NE,Lancaster,119.9,Conventional Steam Coal,40.5589,-96.7847
+Rainbow Energy Center,Coal Creek,ND,McLean,604.8,Conventional Steam Coal,47.377743,-101.1571
+Rainbow Energy Center,Coal Creek,ND,McLean,604.8,Conventional Steam Coal,47.377743,-101.1571
+City of Kansas City - (KS),Nearman Creek,KS,Wyandotte,261,Conventional Steam Coal,39.1681,-94.6975
+"Dominion Energy South Carolina, Inc",Wateree,SC,Richland,385.9,Conventional Steam Coal,33.8264,-80.6228
+"Dominion Energy South Carolina, Inc",Wateree,SC,Richland,385.9,Conventional Steam Coal,33.8264,-80.6228
+Dynegy Kincaid Generation,Kincaid Generation LLC,IL,Christian,659.5,Conventional Steam Coal,39.590556,-89.49639
+Dynegy Kincaid Generation,Kincaid Generation LLC,IL,Christian,659.5,Conventional Steam Coal,39.590556,-89.49639
+Public Service Co of Colorado,Pawnee,CO,Morgan,552.3,Conventional Steam Coal,40.2217,-103.6803
+PacifiCorp,Dave Johnston,WY,Converse,133.6,Conventional Steam Coal,42.8378,-105.7769
+PacifiCorp,Dave Johnston,WY,Converse,133.6,Conventional Steam Coal,42.8378,-105.7769
+PacifiCorp,Dave Johnston,WY,Converse,255,Conventional Steam Coal,42.8378,-105.7769
+PacifiCorp,Dave Johnston,WY,Converse,400,Conventional Steam Coal,42.8378,-105.7769
+Oklahoma Gas & Electric Co,River Valley,OK,Le Flore,175,Conventional Steam Coal,35.1931,-94.6458
+Oklahoma Gas & Electric Co,River Valley,OK,Le Flore,175,Conventional Steam Coal,35.1931,-94.6458
+Consumers Energy Co,Dan E Karn,MI,Bay,136,Conventional Steam Coal,43.644996,-83.84007
+Consumers Energy Co,Dan E Karn,MI,Bay,136,Conventional Steam Coal,43.644996,-83.84007
+Consumers Energy Co,Dan E Karn,MI,Bay,136,Conventional Steam Coal,43.644996,-83.84007
+Consumers Energy Co,Dan E Karn,MI,Bay,136,Conventional Steam Coal,43.644996,-83.84007
+"Duke Energy Indiana, LLC",Cayuga,IN,Vermillion,531,Conventional Steam Coal,39.9242,-87.4244
+"Duke Energy Indiana, LLC",Cayuga,IN,Vermillion,531,Conventional Steam Coal,39.9242,-87.4244
+Granite Shore Power,Merrimack,NH,Merrimack,113.6,Conventional Steam Coal,43.1411,-71.4692
+Granite Shore Power,Merrimack,NH,Merrimack,345.6,Conventional Steam Coal,43.1411,-71.4692
+Michigan Sugar Company,MSC Sebewaing,MI,Huron,1.5,Conventional Steam Coal,43.741111,-83.44722
+Michigan Sugar Company,MSC Sebewaing,MI,Huron,1,Conventional Steam Coal,43.741111,-83.44722
+AES WR Ltd Partnership,AES Warrior Run Cogeneration Facility,MD,Allegany,229,Conventional Steam Coal,39.595171,-78.74533
+Eastman Chemical Co-TN Ops,Tennessee Eastman Operations,TN,Sullivan,6,Conventional Steam Coal,36.5219,-82.5431
+Eastman Chemical Co-TN Ops,Tennessee Eastman Operations,TN,Sullivan,6,Conventional Steam Coal,36.5219,-82.5431
+Eastman Chemical Co-TN Ops,Tennessee Eastman Operations,TN,Sullivan,6,Conventional Steam Coal,36.5219,-82.5431
+Eastman Chemical Co-TN Ops,Tennessee Eastman Operations,TN,Sullivan,7,Conventional Steam Coal,36.5219,-82.5431
+Eastman Chemical Co-TN Ops,Tennessee Eastman Operations,TN,Sullivan,10,Conventional Steam Coal,36.5219,-82.5431
+Eastman Chemical Co-TN Ops,Tennessee Eastman Operations,TN,Sullivan,7.5,Conventional Steam Coal,36.5219,-82.5431
+Eastman Chemical Co-TN Ops,Tennessee Eastman Operations,TN,Sullivan,10.4,Conventional Steam Coal,36.5219,-82.5431
+Eastman Chemical Co-TN Ops,Tennessee Eastman Operations,TN,Sullivan,10.4,Conventional Steam Coal,36.5219,-82.5431
+Eastman Chemical Co-TN Ops,Tennessee Eastman Operations,TN,Sullivan,15.4,Conventional Steam Coal,36.5219,-82.5431
+Eastman Chemical Co-TN Ops,Tennessee Eastman Operations,TN,Sullivan,18,Conventional Steam Coal,36.5219,-82.5431
+Eastman Chemical Co-TN Ops,Tennessee Eastman Operations,TN,Sullivan,16.6,Conventional Steam Coal,36.5219,-82.5431
+Eastman Chemical Co-TN Ops,Tennessee Eastman Operations,TN,Sullivan,6,Conventional Steam Coal,36.5219,-82.5431
+Eastman Chemical Co-TN Ops,Tennessee Eastman Operations,TN,Sullivan,6,Conventional Steam Coal,36.5219,-82.5431
+Eastman Chemical Co-TN Ops,Tennessee Eastman Operations,TN,Sullivan,6,Conventional Steam Coal,36.5219,-82.5431
+Otter Tail Power Co,Big Stone,SD,Grant,450,Conventional Steam Coal,45.303652,-96.51007
+Crawfordsville Energy LLC,Crawfordsville Power Plant,IN,Montgomery,11.5,Conventional Steam Coal,40.048889,-86.8992
+KeyCon Operating LLC,Keystone,PA,Armstrong,936,Conventional Steam Coal,40.6604,-79.3411
+KeyCon Operating LLC,Keystone,PA,Armstrong,936,Conventional Steam Coal,40.6604,-79.3411
+Basin Electric Power Coop,Leland Olds,ND,Mercer,216,Conventional Steam Coal,47.280769,-101.3212
+Basin Electric Power Coop,Leland Olds,ND,Mercer,440,Conventional Steam Coal,47.280769,-101.3212
+TransAlta Centralia Gen LLC,Transalta Centralia Generation,WA,Lewis,729.9,Conventional Steam Coal,46.755938,-122.8598
+Virginia Electric & Power Co,Clover,VA,Halifax,424,Conventional Steam Coal,36.869,-78.704
+Virginia Electric & Power Co,Clover,VA,Halifax,424,Conventional Steam Coal,36.869,-78.704
+Archer Daniels Midland Co,Archer Daniels Midland Decatur,IL,Macon,31,Conventional Steam Coal,39.870074,-88.89076
+Archer Daniels Midland Co,Archer Daniels Midland Decatur,IL,Macon,31,Conventional Steam Coal,39.870074,-88.89076
+Archer Daniels Midland Co,Archer Daniels Midland Decatur,IL,Macon,31,Conventional Steam Coal,39.870074,-88.89076
+Archer Daniels Midland Co,Archer Daniels Midland Decatur,IL,Macon,31,Conventional Steam Coal,39.870074,-88.89076
+Archer Daniels Midland Co,Archer Daniels Midland Decatur,IL,Macon,31,Conventional Steam Coal,39.870074,-88.89076
+Archer Daniels Midland Co,Archer Daniels Midland Decatur,IL,Macon,75,Conventional Steam Coal,39.870074,-88.89076
+Archer Daniels Midland Co,Archer Daniels Midland Decatur,IL,Macon,105,Conventional Steam Coal,39.870074,-88.89076
+Illinois Power Generating Co,Newton,IL,Jasper,617.4,Conventional Steam Coal,38.9361,-88.2781
+Interstate Power and Light Co,Ottumwa,IA,Wapello,725.9,Conventional Steam Coal,41.0961,-92.55583
+"Minnkota Power Coop, Inc",Milton R Young,ND,Oliver,257,Conventional Steam Coal,47.065854,-101.2131
+"Minnkota Power Coop, Inc",Milton R Young,ND,Oliver,477,Conventional Steam Coal,47.065854,-101.2131
+City of San Antonio - (TX),J T Deely,TX,Bexar,486,Conventional Steam Coal,29.308056,-98.3228
+City of San Antonio - (TX),J T Deely,TX,Bexar,446,Conventional Steam Coal,29.308056,-98.3228
+City of San Antonio - (TX),J K Spruce,TX,Bexar,566,Conventional Steam Coal,29.309722,-98.3203
+City of San Antonio - (TX),J K Spruce,TX,Bexar,922.5,Conventional Steam Coal,29.309722,-98.3203
+Brandon Shores LLC,Brandon Shores,MD,Anne Arundel,685.1,Conventional Steam Coal,39.18,-76.5389
+Brandon Shores LLC,Brandon Shores,MD,Anne Arundel,685.1,Conventional Steam Coal,39.18,-76.5389
+H.A. Wagner LLC,Herbert A Wagner,MD,Anne Arundel,359,Conventional Steam Coal,39.1781,-76.5268
+Interstate Power and Light Co,Lansing,IA,Allamakee,274.5,Conventional Steam Coal,43.3359,-91.1675
+Union Electric Co - (MO),Sioux,MO,St Charles,549.7,Conventional Steam Coal,38.915479,-90.29025
+Union Electric Co - (MO),Sioux,MO,St Charles,549.7,Conventional Steam Coal,38.915479,-90.29025
+Union Electric Co - (MO),Labadie,MO,Franklin,573.7,Conventional Steam Coal,38.562244,-90.83769
+Union Electric Co - (MO),Labadie,MO,Franklin,573.7,Conventional Steam Coal,38.562244,-90.83769
+Union Electric Co - (MO),Labadie,MO,Franklin,621,Conventional Steam Coal,38.562244,-90.83769
+Union Electric Co - (MO),Labadie,MO,Franklin,621,Conventional Steam Coal,38.562244,-90.83769
+"Duke Energy Carolinas, LLC",G G Allen,NC,Gaston,163.2,Conventional Steam Coal,35.1897,-81.0122
+"Duke Energy Carolinas, LLC",G G Allen,NC,Gaston,272,Conventional Steam Coal,35.1897,-81.0122
+Thilmany LLC,Kaukauna Paper Mill,WI,Outagamie,12,Conventional Steam Coal,44.2826,-88.2534
+American Crystal Sugar Co,American Crystal Sugar Hillsboro,ND,Traill,13.3,Conventional Steam Coal,47.437562,-97.06311
+Appalachian Power Co,John E Amos,WV,Putnam,816.3,Conventional Steam Coal,38.4731,-81.8233
+Appalachian Power Co,John E Amos,WV,Putnam,816.3,Conventional Steam Coal,38.4731,-81.8233
+Appalachian Power Co,John E Amos,WV,Putnam,1300,Conventional Steam Coal,38.4731,-81.8233
+Wisconsin Power & Light Co,Edgewater,WI,Sheboygan,413.7,Conventional Steam Coal,43.715142,-87.70586
+Pixelle Specialty Solutions LLC - (PA),Pixelle Specialty Solutions LLC - Spring Grove Facility,PA,York,45.9,Conventional Steam Coal,39.870935,-76.86812
+Archer Daniels Midland Co,Archer Daniels Midland Des Moines,IA,Polk,7.9,Conventional Steam Coal,41.624438,-93.58452
+"Associated Electric Coop, Inc",New Madrid,MO,New Madrid,650,Conventional Steam Coal,36.5147,-89.5617
+"Associated Electric Coop, Inc",New Madrid,MO,New Madrid,650,Conventional Steam Coal,36.5147,-89.5617
+American Crystal Sugar Co,American Crystal Sugar East Grand Forks,MN,Polk,2.5,Conventional Steam Coal,47.927202,-97.00715
+American Crystal Sugar Co,American Crystal Sugar East Grand Forks,MN,Polk,5,Conventional Steam Coal,47.927202,-97.00715
+City of Richmond - (IN),Whitewater Valley,IN,Wayne,33,Conventional Steam Coal,39.8028,-84.8953
+City of Richmond - (IN),Whitewater Valley,IN,Wayne,60.9,Conventional Steam Coal,39.8028,-84.8953
+American Crystal Sugar Co,American Crystal Sugar Moorhead,MN,Clay,3,Conventional Steam Coal,46.9026,-96.76112
+American Crystal Sugar Co,American Crystal Sugar Moorhead,MN,Clay,2,Conventional Steam Coal,46.9026,-96.76112
+"Duke Energy Carolinas, LLC",Marshall (NC),NC,Catawba,348.5,Conventional Steam Coal,35.5975,-80.9658
+"Duke Energy Carolinas, LLC",Marshall (NC),NC,Catawba,348.5,Conventional Steam Coal,35.5975,-80.9658
+"Duke Energy Carolinas, LLC",Marshall (NC),NC,Catawba,711,Conventional Steam Coal,35.5975,-80.9658
+"Duke Energy Carolinas, LLC",Marshall (NC),NC,Catawba,711,Conventional Steam Coal,35.5975,-80.9658
+Kentucky Power Co,Mitchell (WV),WV,Marshall,816.3,Conventional Steam Coal,39.8297,-80.8153
+Kentucky Power Co,Mitchell (WV),WV,Marshall,816.3,Conventional Steam Coal,39.8297,-80.8153
+Georgia Power Co,Scherer,GA,Monroe,891,Conventional Steam Coal,33.0606,-83.8075
+Georgia Power Co,Scherer,GA,Monroe,891,Conventional Steam Coal,33.0606,-83.8075
+Georgia Power Co,Scherer,GA,Monroe,891,Conventional Steam Coal,33.0606,-83.8075
+American Crystal Sugar Co,American Crystal Sugar Crookston,MN,Polk,3.5,Conventional Steam Coal,47.76468,-96.63338
+American Crystal Sugar Co,American Crystal Sugar Crookston,MN,Polk,3,Conventional Steam Coal,47.76468,-96.63338
+Oklahoma Gas & Electric Co,Muskogee,OK,Muskogee,572,Conventional Steam Coal,35.76135,-95.28732
+Southwestern Public Service Co,Harrington,TX,Potter,360,Conventional Steam Coal,35.29816,-101.7472
+Southwestern Public Service Co,Harrington,TX,Potter,360,Conventional Steam Coal,35.29816,-101.7472
+Southwestern Public Service Co,Harrington,TX,Potter,360,Conventional Steam Coal,35.29816,-101.7472
+"East Kentucky Power Coop, Inc",Cooper,KY,Pulaski,113.6,Conventional Steam Coal,36.9981,-84.5919
+"East Kentucky Power Coop, Inc",Cooper,KY,Pulaski,230.4,Conventional Steam Coal,36.9981,-84.5919
+"Duke Energy Carolinas, LLC",James E. Rogers Energy Complex,NC,Cleveland,621,Conventional Steam Coal,35.22,-81.7594
+"Duke Energy Carolinas, LLC",James E. Rogers Energy Complex,NC,Cleveland,909.5,Conventional Steam Coal,35.22,-81.7594
+Indiana-Kentucky Electric Corp,Clifty Creek,IN,Jefferson,217.3,Conventional Steam Coal,38.7378,-85.4206
+Indiana-Kentucky Electric Corp,Clifty Creek,IN,Jefferson,217.3,Conventional Steam Coal,38.7378,-85.4206
+Indiana-Kentucky Electric Corp,Clifty Creek,IN,Jefferson,217.3,Conventional Steam Coal,38.7378,-85.4206
+Indiana-Kentucky Electric Corp,Clifty Creek,IN,Jefferson,217.3,Conventional Steam Coal,38.7378,-85.4206
+Indiana-Kentucky Electric Corp,Clifty Creek,IN,Jefferson,217.3,Conventional Steam Coal,38.7378,-85.4206
+Indiana-Kentucky Electric Corp,Clifty Creek,IN,Jefferson,217.3,Conventional Steam Coal,38.7378,-85.4206
+Louisville Gas & Electric Co,Mill Creek (KY),KY,Jefferson,355.5,Conventional Steam Coal,38.0525,-85.9103
+Louisville Gas & Electric Co,Mill Creek (KY),KY,Jefferson,355.5,Conventional Steam Coal,38.0525,-85.9103
+Louisville Gas & Electric Co,Mill Creek (KY),KY,Jefferson,462.6,Conventional Steam Coal,38.0525,-85.9103
+Louisville Gas & Electric Co,Mill Creek (KY),KY,Jefferson,543.6,Conventional Steam Coal,38.0525,-85.9103
+"Evergy Kansas Central, Inc",Lawrence Energy Center,KS,Douglas,114,Conventional Steam Coal,39.0072,-95.26917
+"Evergy Kansas Central, Inc",Lawrence Energy Center,KS,Douglas,403,Conventional Steam Coal,39.0072,-95.26917
+Tennessee Valley Authority,Cumberland (TN),TN,Stewart,1300,Conventional Steam Coal,36.3903,-87.6539
+Tennessee Valley Authority,Cumberland (TN),TN,Stewart,1300,Conventional Steam Coal,36.3903,-87.6539
+Indianapolis Power & Light Co,AES Petersburg,IN,Pike,670.9,Conventional Steam Coal,38.5281,-87.2525
+Indianapolis Power & Light Co,AES Petersburg,IN,Pike,523.3,Conventional Steam Coal,38.5281,-87.2525
+Indianapolis Power & Light Co,AES Petersburg,IN,Pike,670.9,Conventional Steam Coal,38.5281,-87.2525
+Energy Harbor Generation LLC,W H Sammis,OH,Jefferson,334,Conventional Steam Coal,40.5317,-80.6319
+Energy Harbor Generation LLC,W H Sammis,OH,Jefferson,680,Conventional Steam Coal,40.5317,-80.6319
+Energy Harbor Generation LLC,W H Sammis,OH,Jefferson,680,Conventional Steam Coal,40.5317,-80.6319
+"Duke Energy Indiana, LLC",Gibson,IN,Gibson,667.9,Conventional Steam Coal,38.372222,-87.76583
+"Duke Energy Indiana, LLC",Gibson,IN,Gibson,667.9,Conventional Steam Coal,38.372222,-87.76583
+"Duke Energy Indiana, LLC",Gibson,IN,Gibson,667.9,Conventional Steam Coal,38.372222,-87.76583
+"Duke Energy Indiana, LLC",Gibson,IN,Gibson,667.9,Conventional Steam Coal,38.372222,-87.76583
+"Duke Energy Indiana, LLC",Gibson,IN,Gibson,667.9,Conventional Steam Coal,38.372222,-87.76583
+Oklahoma Gas & Electric Co,Sooner,OK,Noble,569,Conventional Steam Coal,36.45307,-97.05279
+Oklahoma Gas & Electric Co,Sooner,OK,Noble,569,Conventional Steam Coal,36.45307,-97.05279
+Kentucky Utilities Co,Ghent,KY,Carroll,556.9,Conventional Steam Coal,38.7497,-85.035
+Kentucky Utilities Co,Ghent,KY,Carroll,556.3,Conventional Steam Coal,38.7497,-85.035
+Kentucky Utilities Co,Ghent,KY,Carroll,556.5,Conventional Steam Coal,38.7497,-85.035
+Kentucky Utilities Co,Ghent,KY,Carroll,556.2,Conventional Steam Coal,38.7497,-85.035
+Alabama Power Co,James H Miller Jr,AL,Jefferson,705.5,Conventional Steam Coal,33.6319,-87.0597
+Alabama Power Co,James H Miller Jr,AL,Jefferson,705.5,Conventional Steam Coal,33.6319,-87.0597
+Alabama Power Co,James H Miller Jr,AL,Jefferson,705.5,Conventional Steam Coal,33.6319,-87.0597
+Alabama Power Co,James H Miller Jr,AL,Jefferson,705.5,Conventional Steam Coal,33.6319,-87.0597
+"Associated Electric Coop, Inc",Thomas Hill,MO,Randolph,171.7,Conventional Steam Coal,39.5522,-92.6381
+"Associated Electric Coop, Inc",Thomas Hill,MO,Randolph,272,Conventional Steam Coal,39.5522,-92.6381
+"Associated Electric Coop, Inc",Thomas Hill,MO,Randolph,738,Conventional Steam Coal,39.5522,-92.6381
+Southern Indiana Gas & Elec Co,A B Brown,IN,Posey,265.2,Conventional Steam Coal,37.9053,-87.715
+Southern Indiana Gas & Elec Co,A B Brown,IN,Posey,265.2,Conventional Steam Coal,37.9053,-87.715
+Cardinal Operating Company,Cardinal,OH,Jefferson,615.2,Conventional Steam Coal,40.2522,-80.6486
+Cardinal Operating Company,Cardinal,OH,Jefferson,615.2,Conventional Steam Coal,40.2522,-80.6486
+Cardinal Operating Company,Cardinal,OH,Jefferson,650,Conventional Steam Coal,40.2522,-80.6486
+Evergy Metro,La Cygne,KS,Linn,873,Conventional Steam Coal,38.3481,-94.6456
+Evergy Metro,La Cygne,KS,Linn,725.9,Conventional Steam Coal,38.3481,-94.6456
+Dairyland Power Coop,John P Madgett,WI,Buffalo,387,Conventional Steam Coal,44.303583,-91.91265
+Basin Electric Power Coop,Dry Fork Station,WY,Campbell,483.7,Conventional Steam Coal,44.388889,-105.4608
+Northern Indiana Pub Serv Co,Michigan City,IN,LaPorte,540,Conventional Steam Coal,41.7208,-86.9086
+Southwestern Electric Power Co,Flint Creek,AR,Benton,558,Conventional Steam Coal,36.2561,-94.5241
+Wisconsin Electric Power Co,South Oak Creek,WI,Milwaukee,299.2,Conventional Steam Coal,42.8457,-87.8294
+Wisconsin Electric Power Co,South Oak Creek,WI,Milwaukee,299.2,Conventional Steam Coal,42.8457,-87.8294
+Wisconsin Electric Power Co,South Oak Creek,WI,Milwaukee,317.6,Conventional Steam Coal,42.8457,-87.8294
+Wisconsin Electric Power Co,South Oak Creek,WI,Milwaukee,324,Conventional Steam Coal,42.8457,-87.8294
+Wisconsin Electric Power Co,Elm Road Generating Station,WI,Milwaukee,701.3,Conventional Steam Coal,42.8492,-87.8336
+Wisconsin Electric Power Co,Elm Road Generating Station,WI,Milwaukee,701.3,Conventional Steam Coal,42.8492,-87.8336
+Union Electric Co - (MO),Meramec,MO,St Louis,289,Conventional Steam Coal,38.4017,-90.3358
+Union Electric Co - (MO),Meramec,MO,St Louis,359,Conventional Steam Coal,38.4017,-90.3358
+Duke Energy Progress - (NC),Roxboro,NC,Person,410.8,Conventional Steam Coal,36.4833,-79.0731
+Duke Energy Progress - (NC),Roxboro,NC,Person,657,Conventional Steam Coal,36.4833,-79.0731
+Duke Energy Progress - (NC),Roxboro,NC,Person,745.2,Conventional Steam Coal,36.4833,-79.0731
+Duke Energy Progress - (NC),Roxboro,NC,Person,745.2,Conventional Steam Coal,36.4833,-79.0731
+Duke Energy Progress - (NC),Mayo,NC,Person,763.2,Conventional Steam Coal,36.5278,-78.8917
+Tennessee Valley Authority,Gallatin (TN),TN,Sumner,300,Conventional Steam Coal,36.3156,-86.4006
+Tennessee Valley Authority,Gallatin (TN),TN,Sumner,300,Conventional Steam Coal,36.3156,-86.4006
+Tennessee Valley Authority,Gallatin (TN),TN,Sumner,327.6,Conventional Steam Coal,36.3156,-86.4006
+Tennessee Valley Authority,Gallatin (TN),TN,Sumner,327.6,Conventional Steam Coal,36.3156,-86.4006
+Sunflower Electric Power Corp,Holcomb,KS,Finney,348.7,Conventional Steam Coal,37.9308,-100.9725
+Luminant Miami Fort,Miami Fort,OH,Hamilton,557.1,Conventional Steam Coal,39.1128,-84.8036
+Luminant Miami Fort,Miami Fort,OH,Hamilton,557.7,Conventional Steam Coal,39.1128,-84.8036
+Duke Energy Kentucky Inc,East Bend,KY,Boone,772,Conventional Steam Coal,38.9036,-84.8514
+Granite Shore Power,Schiller,NH,Rockingham,50,Conventional Steam Coal,43.0978,-70.7842
+Granite Shore Power,Schiller,NH,Rockingham,50,Conventional Steam Coal,43.0978,-70.7842
+"Duke Energy Carolinas, LLC",Belews Creek,NC,Stokes,1245.6,Conventional Steam Coal,36.2811,-80.0603
+"Duke Energy Carolinas, LLC",Belews Creek,NC,Stokes,1245.6,Conventional Steam Coal,36.2811,-80.0603
+Louisville Gas & Electric Co,Trimble County,KY,Trimble,566.1,Conventional Steam Coal,38.5847,-85.4117
+Louisville Gas & Electric Co,Trimble County,KY,Trimble,834,Conventional Steam Coal,38.5847,-85.4117
+American Crystal Sugar Co,American Crystal Sugar Drayton,ND,Pembina,6,Conventional Steam Coal,48.593158,-97.17608
+Entergy Louisiana LLC,R S Nelson,LA,Calcasieu,614.6,Conventional Steam Coal,30.2844,-93.2911
+Kentucky Utilities Co,E W Brown,KY,Mercer,464,Conventional Steam Coal,37.78831,-84.71257
+City of Sikeston - (MO),Sikeston Power Station,MO,Scott,261,Conventional Steam Coal,36.8791,-89.6209
+US Operating Services Company,Chambers Cogeneration LP,NJ,Salem,285,Conventional Steam Coal,39.693494,-75.48581
+PacifiCorp,Wyodak,WY,Campbell,402.3,Conventional Steam Coal,44.290128,-105.3815
+"Black Hills Power, Inc.",Neil Simpson II,WY,Campbell,90,Conventional Steam Coal,44.2856,-105.3833
+Black Hills Ontario LLC,Wygen 1,WY,Campbell,90,Conventional Steam Coal,44.2858,-105.3833
+"Black Hills Power, Inc.",Wygen 2,WY,Campbell,95,Conventional Steam Coal,44.2919,-105.3811
+"Black Hills Power, Inc.",Wygen III,WY,Campbell,116,Conventional Steam Coal,44.2919,-105.3806
+Energy Harbor Generation LLC,Pleasants Power Station,WV,Pleasants,684,Conventional Steam Coal,39.366667,-81.29444
+Energy Harbor Generation LLC,Pleasants Power Station,WV,Pleasants,684,Conventional Steam Coal,39.366667,-81.29444
+TES Filer City Station LP,TES Filer City Station,MI,Manistee,70,Conventional Steam Coal,44.217299,-86.28905
+Southwestern Public Service Co,Tolk,TX,Lamb,567.9,Conventional Steam Coal,34.186494,-102.57
+Southwestern Public Service Co,Tolk,TX,Lamb,567.9,Conventional Steam Coal,34.186494,-102.57
+Wisconsin Public Service Corp,Weston,WI,Marathon,350.5,Conventional Steam Coal,44.8606,-89.6553
+Wisconsin Public Service Corp,Weston,WI,Marathon,595,Conventional Steam Coal,44.8606,-89.6553
+Southern Illinois Power Coop,Marion,IL,Williamson,33,Conventional Steam Coal,37.619747,-88.95311
+Southern Illinois Power Coop,Marion,IL,Williamson,33,Conventional Steam Coal,37.619747,-88.95311
+Southern Illinois Power Coop,Marion,IL,Williamson,33,Conventional Steam Coal,37.619747,-88.95311
+Union Electric Co - (MO),Rush Island,MO,Jefferson,621,Conventional Steam Coal,38.131248,-90.26316
+Union Electric Co - (MO),Rush Island,MO,Jefferson,621,Conventional Steam Coal,38.131248,-90.26316
+Southern Illinois University Carbondale,SIUC,IL,Jackson,3.5,Conventional Steam Coal,37.711944,-89.215
+Grand River Dam Authority,GREC,OK,Mayes,594,Conventional Steam Coal,36.190278,-95.2894
+"East Kentucky Power Coop, Inc",H L Spurlock,KY,Mason,357.6,Conventional Steam Coal,38.7,-83.8181
+"East Kentucky Power Coop, Inc",H L Spurlock,KY,Mason,592.1,Conventional Steam Coal,38.7,-83.8181
+"East Kentucky Power Coop, Inc",H L Spurlock,KY,Mason,329.4,Conventional Steam Coal,38.7,-83.8181
+"East Kentucky Power Coop, Inc",H L Spurlock,KY,Mason,329.4,Conventional Steam Coal,38.7,-83.8181
+Southern Minnesota Beet Sugar,Southern Minnesota Beet Sugar,MN,Renville,7.5,Conventional Steam Coal,44.796405,-95.17979
+Seminole Electric Cooperative Inc,Seminole (FL),FL,Putnam,714.6,Conventional Steam Coal,29.733056,-81.63278
+Seminole Electric Cooperative Inc,Seminole (FL),FL,Putnam,714.6,Conventional Steam Coal,29.733056,-81.63278
+"ND Paper, Inc.",Biron Mill,WI,Wood,17,Conventional Steam Coal,44.43,-89.78
+"ND Paper, Inc.",Biron Mill,WI,Wood,21.5,Conventional Steam Coal,44.43,-89.78
+DTE Electric Company,Monroe (MI),MI,Monroe,817.2,Conventional Steam Coal,41.8906,-83.3464
+DTE Electric Company,Monroe (MI),MI,Monroe,822.6,Conventional Steam Coal,41.8906,-83.3464
+DTE Electric Company,Monroe (MI),MI,Monroe,822.6,Conventional Steam Coal,41.8906,-83.3464
+DTE Electric Company,Monroe (MI),MI,Monroe,817.2,Conventional Steam Coal,41.8906,-83.3464
+DTE Electric Company,Trenton Channel,MI,Wayne,535.5,Conventional Steam Coal,42.1217,-83.1808
+Alabama Power Co,E C Gaston,AL,Shelby,952,Conventional Steam Coal,33.244211,-86.45806
+Archer Daniels Midland Co,Archer Daniels Midland Mankato,MN,Blue Earth,6.1,Conventional Steam Coal,44.187066,-93.99242
+Consumers Energy Co,J H Campbell,MI,Ottawa,265.2,Conventional Steam Coal,42.910296,-86.20074
+Consumers Energy Co,J H Campbell,MI,Ottawa,378.8,Conventional Steam Coal,42.910296,-86.20074
+Consumers Energy Co,J H Campbell,MI,Ottawa,916.8,Conventional Steam Coal,42.910296,-86.20074
+Georgia Power Co,Wansley,GA,Heard,952,Conventional Steam Coal,33.41342,-85.03233
+Georgia Power Co,Wansley,GA,Heard,952,Conventional Steam Coal,33.41342,-85.03233
+Neenah Paper Michigan Inc.,Neenah Paper Munising Mill,MI,Alger,6.2,Conventional Steam Coal,46.4094,-86.6443
+Tennessee Valley Authority,Shawnee,KY,McCracken,175,Conventional Steam Coal,37.1517,-88.775
+Tennessee Valley Authority,Shawnee,KY,McCracken,175,Conventional Steam Coal,37.1517,-88.775
+Tennessee Valley Authority,Shawnee,KY,McCracken,175,Conventional Steam Coal,37.1517,-88.775
+Tennessee Valley Authority,Shawnee,KY,McCracken,175,Conventional Steam Coal,37.1517,-88.775
+Tennessee Valley Authority,Shawnee,KY,McCracken,175,Conventional Steam Coal,37.1517,-88.775
+Tennessee Valley Authority,Shawnee,KY,McCracken,175,Conventional Steam Coal,37.1517,-88.775
+Tennessee Valley Authority,Shawnee,KY,McCracken,175,Conventional Steam Coal,37.1517,-88.775
+Tennessee Valley Authority,Shawnee,KY,McCracken,175,Conventional Steam Coal,37.1517,-88.775
+Tennessee Valley Authority,Shawnee,KY,McCracken,175,Conventional Steam Coal,37.1517,-88.775
+Big Rivers Electric Corp,R D Green,KY,Webster,293,Conventional Steam Coal,37.6461,-87.5
+Big Rivers Electric Corp,R D Green,KY,Webster,293,Conventional Steam Coal,37.6461,-87.5
+Public Service Co of Oklahoma,Northeastern,OK,Rogers,473,Conventional Steam Coal,36.4317,-95.7008
+Tennessee Valley Authority,Bull Run,TN,Anderson,950,Conventional Steam Coal,36.0211,-84.1567
+Lansing Board of Water and Light,Erickson Station,MI,Eaton,154.7,Conventional Steam Coal,42.692222,-84.65722
+Tennessee Valley Authority,Kingston,TN,Roane,175,Conventional Steam Coal,35.8992,-84.5194
+Tennessee Valley Authority,Kingston,TN,Roane,175,Conventional Steam Coal,35.8992,-84.5194
+Tennessee Valley Authority,Kingston,TN,Roane,175,Conventional Steam Coal,35.8992,-84.5194
+Tennessee Valley Authority,Kingston,TN,Roane,175,Conventional Steam Coal,35.8992,-84.5194
+Tennessee Valley Authority,Kingston,TN,Roane,200,Conventional Steam Coal,35.8992,-84.5194
+Tennessee Valley Authority,Kingston,TN,Roane,200,Conventional Steam Coal,35.8992,-84.5194
+Tennessee Valley Authority,Kingston,TN,Roane,200,Conventional Steam Coal,35.8992,-84.5194
+Tennessee Valley Authority,Kingston,TN,Roane,200,Conventional Steam Coal,35.8992,-84.5194
+Tennessee Valley Authority,Kingston,TN,Roane,200,Conventional Steam Coal,35.8992,-84.5194
+City of Painesville,Painesville,OH,Lake,7.5,Conventional Steam Coal,41.7265,-81.254
+City of Painesville,Painesville,OH,Lake,16.5,Conventional Steam Coal,41.7265,-81.254
+City of Painesville,Painesville,OH,Lake,22,Conventional Steam Coal,41.7265,-81.254
+City of Painesville,Painesville,OH,Lake,7.5,Conventional Steam Coal,41.7265,-81.254
+Appalachian Power Co,Mountaineer,WV,Mason,1300,Conventional Steam Coal,38.9794,-81.9344
+"Gavin Power, LLC","Gavin Power, LLC",OH,Gallia,1300,Conventional Steam Coal,38.9347,-82.1158
+"Gavin Power, LLC","Gavin Power, LLC",OH,Gallia,1300,Conventional Steam Coal,38.9347,-82.1158
+City of Orrville - (OH),Orrville,OH,Wayne,25,Conventional Steam Coal,40.850964,-81.76576
+City of Orrville - (OH),Orrville,OH,Wayne,5,Conventional Steam Coal,40.850964,-81.76576
+City of Orrville - (OH),Orrville,OH,Wayne,7.5,Conventional Steam Coal,40.850964,-81.76576
+City of Orrville - (OH),Orrville,OH,Wayne,22,Conventional Steam Coal,40.850964,-81.76576
+Southern Indiana Gas & Elec Co,F B Culley,IN,Warrick,103.7,Conventional Steam Coal,37.9111,-87.3275
+Southern Indiana Gas & Elec Co,F B Culley,IN,Warrick,265.2,Conventional Steam Coal,37.9111,-87.3275
+AGC Division of APGI Inc,Warrick,IN,Warrick,166.6,Conventional Steam Coal,37.915,-87.3328
+AGC Division of APGI Inc,Warrick,IN,Warrick,166.6,Conventional Steam Coal,37.915,-87.3328
+AGC Division of APGI Inc,Warrick,IN,Warrick,166.6,Conventional Steam Coal,37.915,-87.3328
+AGC Division of APGI Inc,Warrick,IN,Warrick,323,Conventional Steam Coal,37.915,-87.3328
+Northern States Power Co - Minnesota,Allen S King,MN,Washington,598.4,Conventional Steam Coal,45.03,-92.7786
+University of North Carolina,Univ of NC Chapel Hill Cogen Facility,NC,Orange,28,Conventional Steam Coal,35.9069,-79.0617
+Georgia Power Co,Bowen,GA,Bartow,805.8,Conventional Steam Coal,34.1256,-84.9222
+Georgia Power Co,Bowen,GA,Bartow,788.8,Conventional Steam Coal,34.1256,-84.9222
+Georgia Power Co,Bowen,GA,Bartow,952,Conventional Steam Coal,34.1256,-84.9222
+Georgia Power Co,Bowen,GA,Bartow,952,Conventional Steam Coal,34.1256,-84.9222
+"Duke Energy Florida, LLC",Crystal River,FL,Citrus,739.2,Conventional Steam Coal,28.9656,-82.6977
+"Duke Energy Florida, LLC",Crystal River,FL,Citrus,739.2,Conventional Steam Coal,28.9656,-82.6977
+DTE Electric Company,St Clair,MI,St Clair,156.2,Conventional Steam Coal,42.7642,-82.4719
+DTE Electric Company,St Clair,MI,St Clair,156.2,Conventional Steam Coal,42.7642,-82.4719
+DTE Electric Company,St Clair,MI,St Clair,352.7,Conventional Steam Coal,42.7642,-82.4719
+DTE Electric Company,St Clair,MI,St Clair,544.5,Conventional Steam Coal,42.7642,-82.4719
+DTE Electric Company,Belle River,MI,St Clair,697.5,Conventional Steam Coal,42.7756,-82.495
+DTE Electric Company,Belle River,MI,St Clair,697.5,Conventional Steam Coal,42.7756,-82.495
+Indiana Michigan Power Co,Rockport,IN,Spencer,1300,Conventional Steam Coal,37.9256,-87.0372
+Indiana Michigan Power Co,Rockport,IN,Spencer,1300,Conventional Steam Coal,37.9256,-87.0372
+Cleveland Cliffs Inc,Silver Bay Power,MN,Lake,50,Conventional Steam Coal,47.286573,-91.26053
+Cleveland Cliffs Inc,Silver Bay Power,MN,Lake,81.6,Conventional Steam Coal,47.286573,-91.26053
+Northern States Power Co - Minnesota,Sherburne County,MN,Sherburne,765.3,Conventional Steam Coal,45.3808,-93.8931
+Northern States Power Co - Minnesota,Sherburne County,MN,Sherburne,765.3,Conventional Steam Coal,45.3808,-93.8931
+Northern States Power Co - Minnesota,Sherburne County,MN,Sherburne,938.7,Conventional Steam Coal,45.3808,-93.8931
+Tampa Electric Co,Big Bend,FL,Hillsborough,486,Conventional Steam Coal,27.7944,-82.4036
+"ALLETE, Inc.",Taconite Harbor Energy Center,MN,Cook,84,Conventional Steam Coal,47.5314,-90.9114
+"ALLETE, Inc.",Taconite Harbor Energy Center,MN,Cook,84,Conventional Steam Coal,47.5314,-90.9114
+Ohio Valley Electric Corp,Kyger Creek,OH,Gallia,217.3,Conventional Steam Coal,38.9144,-82.1289
+Ohio Valley Electric Corp,Kyger Creek,OH,Gallia,217.3,Conventional Steam Coal,38.9144,-82.1289
+Ohio Valley Electric Corp,Kyger Creek,OH,Gallia,217.3,Conventional Steam Coal,38.9144,-82.1289
+Ohio Valley Electric Corp,Kyger Creek,OH,Gallia,217.3,Conventional Steam Coal,38.9144,-82.1289
+Ohio Valley Electric Corp,Kyger Creek,OH,Gallia,217.3,Conventional Steam Coal,38.9144,-82.1289
+Ahlstrom-Munksjo,Rhinelander Mill,WI,Oneida,9.3,Conventional Steam Coal,45.6394,-89.4205
+City of Dover - (OH),Dover,OH,Tuscarawas,8,Conventional Steam Coal,40.520066,-81.46815
+City of Dover - (OH),Dover,OH,Tuscarawas,19.5,Conventional Steam Coal,40.520066,-81.46815
+Orlando Utilities Comm,Stanton Energy Center,FL,Orange,464.5,Conventional Steam Coal,28.4822,-81.1678
+Orlando Utilities Comm,Stanton Energy Center,FL,Orange,464.5,Conventional Steam Coal,28.4822,-81.1678
+Dynegy Midwest Generation Inc,Baldwin Energy Complex,IL,Randolph,625.1,Conventional Steam Coal,38.205,-89.8544
+Dynegy Midwest Generation Inc,Baldwin Energy Complex,IL,Randolph,634.5,Conventional Steam Coal,38.205,-89.8544
+Prairie State Generating Co LLC,Prairie State Generating Station,IL,St Clair,883,Conventional Steam Coal,38.279167,-89.66694
+Prairie State Generating Co LLC,Prairie State Generating Station,IL,St Clair,883,Conventional Steam Coal,38.279167,-89.66694
+"ALLETE, Inc.",Clay Boswell,MN,Itasca,364.5,Conventional Steam Coal,47.2611,-93.6528
+"ALLETE, Inc.",Clay Boswell,MN,Itasca,558,Conventional Steam Coal,47.2611,-93.6528
+Hibbing Public Utilities Comm,Hibbing,MN,St Louis,10,Conventional Steam Coal,47.4294,-92.935
+Hibbing Public Utilities Comm,Hibbing,MN,St Louis,19.5,Conventional Steam Coal,47.4294,-92.935
+Hibbing Public Utilities Comm,Hibbing,MN,St Louis,6.4,Conventional Steam Coal,47.4294,-92.935
+Big Rivers Electric Corp,D B Wilson,KY,Ohio,509.4,Conventional Steam Coal,37.4497,-87.0806

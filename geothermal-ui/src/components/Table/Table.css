@@ -1,0 +1,55 @@
+.tableContainer {
+  position: relative;
+  width: 39% !important;
+  height: 100%;
+  padding: 1.5rem 0 4rem 0;
+  box-shadow: none;
+}
+
+.tableHeader {
+  position: absolute;
+  padding: 0 0 0 0.7rem;
+  font-size: 1.5rem !important;
+  font-weight: bold !important;
+  top: 1.3rem;
+}
+
+.tableContentContainer {
+  padding: 2rem 0 0;
+  height: 100%;
+}
+
+.headerCell {
+  width: 100%;
+  padding: 0.8rem !important;
+  overflow: hidden;
+  height: 25%;
+  font-size: 0.75rem !important;
+  line-height: 0.8rem !important;
+}
+
+.tableContent {
+  height: 100%;
+}
+
+.tableContent,
+.tableBodyContainer {
+  display: flex !important;
+}
+
+.tableBodyContainer {
+  width: 75%;
+}
+
+.tableHeaderContainer {
+  width: 25%;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .tableContainer {
+    width: 100% !important;
+  }
+}

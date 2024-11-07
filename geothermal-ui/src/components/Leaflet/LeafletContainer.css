@@ -1,0 +1,21 @@
+#map {
+  width: 100%;
+  height: 500px;
+  margin: 0 0 1rem 0
+}
+
+.mapContainer {
+  position: relative;
+}
+
+.loadingStatus {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  z-index: 1000;
+}
+
+.iconContainer {
+  background: transparent;
+  border: 0;
+}

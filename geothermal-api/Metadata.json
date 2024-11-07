@@ -1,0 +1,30 @@
+{
+    "inputSheet": {
+      "name": "Project Inputs and Calcs",
+      "gradient": "E7",
+      "depth": "E8",
+      "depthToBasement": "F9",
+      "levelizedCostOfElectricity": "L33",
+      "temperature": "L6",
+      "netPresentValue10": "L35",
+      "internalRateOfReturn": "L36"
+    },
+    "outputSheet": {
+      "name": "Project Inputs and Calcs",
+      "levelizedCostOfElectricity": "L33",
+      "temperature": "L6",
+      "netPresentValue10": "L35",
+      "internalRateOfReturn": "L36",
+      "depthToBasement": "E9"
+    },
+    "physicalModelSheet": {
+      "name": "Power Output Gradient",
+      "gradient": "A",
+      "depth": "B",
+      "drawdown": "E"
+    },
+    "financialModelSheet": {
+      "name": "Financial Model",
+      "capitalExpenditures": "F58"
+    }
+  }

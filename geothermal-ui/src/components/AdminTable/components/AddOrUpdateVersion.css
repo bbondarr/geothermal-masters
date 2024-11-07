@@ -1,0 +1,9 @@
+.fileInputContainer {
+  margin-bottom: 1rem;
+  display: flex !important;
+  align-items: center;
+}
+
+.fileBtn {
+  margin-right: 1rem !important;
+}

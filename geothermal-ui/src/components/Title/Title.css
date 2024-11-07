@@ -1,0 +1,17 @@
+.titleContainer {
+  padding: 6rem 7rem !important;
+}
+
+.titleHeader {
+  font-size: 6rem;
+}
+
+@media screen and (max-width: 700px) {
+  .titleContainer {
+    padding: 3rem 2rem !important;
+  }
+
+  .titleHeader {
+    font-size: 4rem !important;
+  }
+}

@@ -1,0 +1,12 @@
+.adminTitleContainer {
+  padding: 4rem 12rem !important;
+}
+
+.adminTextContainer:not(:last-child) {
+  margin-bottom: 2.5rem;
+}
+
+.redCycle {
+  color: #ED6132 !important;
+  min-width: 1.5rem !important;
+}

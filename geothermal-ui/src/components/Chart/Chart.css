@@ -1,0 +1,36 @@
+.chartContainer {
+  height: 97% !important;
+  max-height: 500px;
+  padding: 1.5rem 0 1rem;
+}
+
+.contentContainer {
+  width: 59% !important;
+  position: relative;
+}
+
+.loadingStatus {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+}
+
+
+.YAxisLabel {
+  position: absolute;
+  top: 0;
+  left: 1rem;
+}
+
+.XAxisLabel {
+  position: absolute;
+  bottom: 1rem;
+  right: 25%;
+}
+
+@media screen and (max-width: 600px) {
+  .contentContainer {
+    width: 100% !important;
+    height: 25rem;
+  }
+}

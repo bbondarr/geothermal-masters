@@ -1,0 +1,24 @@
+.headerContainer {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  max-width: none !important;
+  margin-top: 2rem;
+}
+
+.linksContainer {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+}
+
+.link {
+  min-width: 9rem;
+  align-items: start;
+}
+
+@media screen and (max-width: 650px) {
+  .linksContainer {
+    display: none !important;
+  }
+}
