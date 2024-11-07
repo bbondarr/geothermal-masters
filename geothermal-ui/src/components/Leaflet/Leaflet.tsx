@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from "react"
+import { useCallback, useEffect, useState } from "react"
 import { CircularProgress } from "@mui/material";
 import { useRecoilValue } from "recoil";
 import L from 'leaflet';
@@ -14,7 +14,8 @@ import './LeafletContainer.css';
 import { MapControls } from "../MapControls/MapControls";
 
 export function LeafletMap() {
-  // const { data, isPending } = usePolygons();
+  const { data: polygons } = usePolygons();
+  console.log('polygons on init', polygons);
   const { chartColor } = useRecoilValue(ColorState);
   const [loading, setLoading] = useState<boolean>(false);
   const [mapState, setMapState] = useState<L.Map>();
@@ -22,8 +23,11 @@ export function LeafletMap() {
   const { mutateAsync } = useMarker();
 
   // const polygons = useMemo(() => {
-  //   if (data) return data
-  //   return {}
+  //   if (data) {
+  //     return data
+  //   }
+  //   console.log('what the fuck?')
+  //   return undefined;
   // },[data]);
 
   const addMarker = useCallback((location: Location, callback: () => void) => {
@@ -86,7 +90,8 @@ export function LeafletMap() {
     })
   }, [addMarker, chartColor, loading]);
 
-  const initializeMap = useCallback(() => {
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const initializeMap = () => {
     if (
       document.getElementById('map')?.childNodes.length === 0
     ) {
@@ -94,16 +99,14 @@ export function LeafletMap() {
       setMapState(map);
 
       L.tileLayer('https://www.google.com/maps/vt?hl=uk&lyrs=m@189&x={x}&y={y}&z={z}',{ maxZoom: 20 }).addTo(map);
-      
-      // L.geoJson(polygons as any,{ 
-      //   style: style
-      // }).addTo(map);
+
+      L.geoJson(polygons as any,{ style }).addTo(map);
     }
-  }, []) 
+  }
 
   useEffect(() => {
-    initializeMap()
-  }, [initializeMap])
+    polygons && initializeMap();
+  }, [polygons, initializeMap])
 
   useEffect(() => {
     if (mapState) {

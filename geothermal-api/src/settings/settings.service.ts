@@ -29,7 +29,7 @@ export class SettingsService {
     private readonly versionControlRepository: VersionControlRepository,
     private readonly gridRepository: PolygonsRepository,
     private readonly polygonsRepository: PolygonsRepository,
-    private fileLoaderService: FileLoaderService,
+    private readonly fileLoaderService: FileLoaderService,
     private readonly calculationsService: CalculationsService,
     private readonly choroplethService: ChoroplethCalculationsService,
   ) {}
@@ -148,7 +148,7 @@ export class SettingsService {
     }
   }
 
-  private async uploadGradientsChoroplethMapFile(
+  public async uploadGradientsChoroplethMapFile(
     version: number,
   ): Promise<void> {
     const gridPolygons =

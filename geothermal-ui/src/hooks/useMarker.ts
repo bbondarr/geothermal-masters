@@ -48,7 +48,7 @@ export function useMarker() {
               open: true,
               title: "Warning",
               severity: "warning",
-              message: "Graph is not visible because it has LCOE above 200",
+              message: "Графік не відображається тому що значення LCOE перевищує 200",
             });
           }
 
@@ -96,7 +96,7 @@ export function useMarker() {
           open: true,
           title: "Warning",
           severity: "warning",
-          message: "The graph may appear very close to another graph.",
+          message: "Нова лінія на графі може бути надто близько до іншої лінії.",
         });
       }
     },

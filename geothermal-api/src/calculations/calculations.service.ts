@@ -26,7 +26,7 @@ export class CalculationsService implements OnModuleInit {
 
   constructor(
     private readonly fileLoaderService: FileLoaderService,
-    private versionControlRepository: VersionControlRepository,
+    private readonly versionControlRepository: VersionControlRepository,
   ) {}
 
   async onModuleInit(): Promise<void> {

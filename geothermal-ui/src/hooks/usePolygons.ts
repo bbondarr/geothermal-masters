@@ -8,10 +8,11 @@ export function usePolygons() {
   return useQuery({
     queryKey: ["polygons"],
     queryFn: async () => {
-      const { data } = await axios.get<PolygonsResponse>(
+      const response = await axios.get<PolygonsResponse>(
         `${process.env.REACT_APP_API}/map/polygons`
       );
-      return data;
+      console.log(response);
+      return response.data;
     },
   });
 }
