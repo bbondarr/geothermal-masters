@@ -19,12 +19,17 @@ export class StorageService {
   constructor() {
     this.s3 = new S3Client({
       region: process.env.AWS_REGION,
+      credentials: {
+        accessKeyId: process.env.AWS_ACCESS_KEY,
+        secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+    },
     });
     this.bucketName = process.env.AWS_BUCKET_NAME;
   }
 
   public async getFile(filename: string): Promise<Buffer> {
     const fileKey = filename;
+    console.log(fileKey);
     const params = {
       Bucket: this.bucketName,
       Key: fileKey,

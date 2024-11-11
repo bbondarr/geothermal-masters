@@ -1,7 +1,3 @@
-.adminTitleContainer {
-  padding: 4rem 12rem !important;
-}
-
 .adminTextContainer:not(:last-child) {
   margin-bottom: 2.5rem;
 }

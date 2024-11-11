@@ -6,9 +6,9 @@ import { useNavigate } from "react-router-dom";
 const formFields = {
   signIn: {
     username: {
-      placeholder: 'Enter Your Username OR Email',
+      placeholder: 'Введіть пошту',
       isRequired: true,
-      label: 'Email / Username'
+      label: 'Email'
     },
   }
 }
