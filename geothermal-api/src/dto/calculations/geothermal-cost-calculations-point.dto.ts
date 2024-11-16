@@ -4,6 +4,8 @@ export class GeothermalCostCalculationPointDto {
   }
 
   lcoe: number;
+  npv10: number;
+  irr: number;
   temperature: number;
   gradient: number;
   depth: number;

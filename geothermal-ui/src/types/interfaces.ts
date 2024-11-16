@@ -12,8 +12,8 @@ export interface CostsMarker {
   depthToBasement: number;
   lowestPoint: boolean;
   capitalExpenditures?: number;
-  netPresentValue10?: number;
-  internalRateOfReturn?: number;
+  npv10?: number;
+  irr?: number;
 }
 
 export interface LowestPointResponse {
@@ -23,8 +23,8 @@ export interface LowestPointResponse {
   depth: number;
   depthToBasement: number;
   capitalExpenditures: number;
-  netPresentValue10: number;
-  internalRateOfReturn: number;
+  npv10: number;
+  irr: number;
 }
 
 export interface CostsResponse {

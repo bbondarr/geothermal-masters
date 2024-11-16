@@ -1,19 +1,19 @@
-import { BadRequestException, Injectable, OnModuleInit } from '@nestjs/common';
-import { SpreadsheetService } from './utils/spreadsheet.service';
-import { GisService } from 'src/calculations/utils/gis.service';
+import { BadRequestException, Injectable, OnModuleInit } from "@nestjs/common";
+import { SpreadsheetService } from "./utils/spreadsheet.service";
+import { GisService } from "src/calculations/utils/gis.service";
 
-import { DepthRangeService } from './utils/depthrange.service';
-import { FileLoaderService } from '../file-loader/file-loader.service';
-import { numberToFixed } from '../helpers/helpers';
-import { GeothermalCostCalculationsDto } from '../dto/calculations/geothermal-cost-calculations.dto';
-import { GeothermalService } from './utils/geothermal.service';
-import { DetailedGeothermalCostCalculationPointDto } from 'src/dto/calculations/detailed-geothermal-cost-calculation-point.dto';
-import { SpreadsheetMetadataDto } from 'src/dto/metadata/spreadsheet-metadata.dto';
-import { Input } from 'src/types/interfaces';
-import { GeothermalCostCalculationPointDto } from '../dto/calculations/geothermal-cost-calculations-point.dto';
-import { VersionControlRepository } from 'src/repositories/version-control.repository';
-import { GeothermalPointDto } from 'src/dto/calculations/geothermal-point.dto';
-import { GIS_NODATA_VALUE } from 'src/constants';
+import { DepthRangeService } from "./utils/depthrange.service";
+import { FileLoaderService } from "../file-loader/file-loader.service";
+import { numberToFixed } from "../helpers/helpers";
+import { GeothermalCostCalculationsDto } from "../dto/calculations/geothermal-cost-calculations.dto";
+import { GeothermalService } from "./utils/geothermal.service";
+import { DetailedGeothermalCostCalculationPointDto } from "src/dto/calculations/detailed-geothermal-cost-calculation-point.dto";
+import { SpreadsheetMetadataDto } from "src/dto/metadata/spreadsheet-metadata.dto";
+import { Input } from "src/types/interfaces";
+import { GeothermalCostCalculationPointDto } from "../dto/calculations/geothermal-cost-calculations-point.dto";
+import { VersionControlRepository } from "src/repositories/version-control.repository";
+import { GeothermalPointDto } from "src/dto/calculations/geothermal-point.dto";
+import { GIS_NODATA_VALUE } from "src/constants";
 
 @Injectable()
 export class CalculationsService implements OnModuleInit {
@@ -26,20 +26,20 @@ export class CalculationsService implements OnModuleInit {
 
   constructor(
     private readonly fileLoaderService: FileLoaderService,
-    private readonly versionControlRepository: VersionControlRepository,
+    private readonly versionControlRepository: VersionControlRepository
   ) {}
 
   async onModuleInit(): Promise<void> {
     let loadedFiles: Buffer[] = [];
     console.log(process.env.ENVIRONMENT);
-    if (process.env.ENVIRONMENT === 'local') {
+    if (process.env.ENVIRONMENT === "local") {
       loadedFiles = await this.fileLoaderService.loadLocalFiles();
     } else {
-      console.log('Downloading files from s3');
+      console.log("Downloading files from s3");
       const { version } =
         await this.versionControlRepository.getPublishedVersion();
       loadedFiles = await this.fileLoaderService.loadS3Files(version);
-      console.log('Downloaded');
+      console.log("Downloaded");
     }
 
     const [gisFileBuffer, calculationFileBuffer, metadataFileBuffer] =
@@ -48,31 +48,31 @@ export class CalculationsService implements OnModuleInit {
     this.initializeServices(
       gisFileBuffer,
       calculationFileBuffer,
-      metadataFileBuffer,
+      metadataFileBuffer
     );
   }
 
   public initializeServices(
     gisFileBuffer: Buffer,
     calculationFileBuffer: Buffer,
-    metadataFileBuffer: Buffer,
+    metadataFileBuffer: Buffer
   ): void {
     this.defaultDepths = Number(process.env.DEFAULT_DEPTHS) || 6;
     this.metadata = new SpreadsheetMetadataDto(
-      JSON.parse(metadataFileBuffer.toString()),
+      JSON.parse(metadataFileBuffer.toString())
     );
     this.gisService = new GisService(gisFileBuffer);
     this.spreadsheetService = new SpreadsheetService(calculationFileBuffer);
     this.depthRange = new DepthRangeService(
       this.spreadsheetService,
-      this.metadata,
+      this.metadata
     );
     this.geothermalService = new GeothermalService();
   }
 
   public async calculateGeothermalPoints(
     latitude: number,
-    longitude: number,
+    longitude: number
   ): Promise<GeothermalCostCalculationsDto> {
     const { depthToBasement, depth500Iso, depth300Iso } =
       await this.gisService.getDepthsByCoordinates(longitude, latitude);
@@ -84,7 +84,7 @@ export class CalculationsService implements OnModuleInit {
     ) {
       throw new BadRequestException({
         error: {
-          message: 'Coordinates are out of bounds.',
+          message: "Coordinates are out of bounds.",
           data: {
             depthToBasement:
               depthToBasement === GIS_NODATA_VALUE ? null : depthToBasement,
@@ -105,7 +105,7 @@ export class CalculationsService implements OnModuleInit {
     if (!isFinite(gradient)) {
       throw new BadRequestException({
         error: {
-          message: 'Cannot calculate geothermal data by infinite gradient.',
+          message: "Cannot calculate geothermal data by infinite gradient.",
           data: {
             depthToBasement,
             depth500Iso,
@@ -123,24 +123,26 @@ export class CalculationsService implements OnModuleInit {
 
     const depths = this.depthRange.getWorthyDepthRangeForGradient(
       gradient,
-      this.defaultDepths,
+      this.defaultDepths
     );
     const intermediatePoints = depths.map((depth) =>
       this.calculateGeothermalPointByDepth(
         gradient,
         depth,
-        parsedDepthToBasement,
-      ),
+        parsedDepthToBasement
+      )
     );
 
     const detailedPoints: DetailedGeothermalCostCalculationPointDto[] =
       intermediatePoints.map(
-        (point) => new DetailedGeothermalCostCalculationPointDto(point),
+        (point) => new DetailedGeothermalCostCalculationPointDto(point)
       );
 
     const regularPoints: GeothermalCostCalculationPointDto[] =
       intermediatePoints.map((point) => ({
         lcoe: point.levelizedCostOfElectricity,
+        npv10: point.npv10,
+        irr: point.irr,
         temperature: point.temperature,
         gradient: point.gradient,
         depth: point.depth,
@@ -150,7 +152,7 @@ export class CalculationsService implements OnModuleInit {
     if (regularPoints.length == 0) {
       throw new BadRequestException({
         error: {
-          message: 'Cannot calculate geothermal data in coordinates.',
+          message: "Cannot calculate geothermal data in coordinates.",
           data: {
             depthToBasement,
             depth500Iso,
@@ -166,7 +168,7 @@ export class CalculationsService implements OnModuleInit {
     if (Object.keys(lowestPoint).length === 0) {
       throw new BadRequestException({
         error: {
-          message: 'Cannot calculate geothermal data in coordinates.',
+          message: "Cannot calculate geothermal data in coordinates.",
           data: {
             depthToBasement,
             depth500Iso,
@@ -187,7 +189,7 @@ export class CalculationsService implements OnModuleInit {
   private calculateGeothermalPointByDepth(
     gradient: number,
     depth: number,
-    depthToBasement: number,
+    depthToBasement: number
   ): GeothermalPointDto {
     this.setInputValuesAndRecalculate({
       gradient,
@@ -195,7 +197,9 @@ export class CalculationsService implements OnModuleInit {
       depthToBasement: depthToBasement,
     });
 
-    let levelizedCostOfElectricity: number | null = null;
+    let lcoe: number | null = null;
+    let npv10: number | null = null;
+    let irr: number | null = null;
     let reservoirTemperature: number | null = null;
     let recalculatedDepthToBasement: number | null = null;
 
@@ -210,21 +214,30 @@ export class CalculationsService implements OnModuleInit {
         addressString: this.metadata.outputSheet.depthToBasement,
       });
 
-      levelizedCostOfElectricity = this.spreadsheetService.getValue<number>({
+      lcoe = this.spreadsheetService.getValue<number>({
         sheetName: this.metadata.outputSheet.name,
         addressString: this.metadata.outputSheet.levelizedCostOfElectricity,
       });
+
+      npv10 = this.spreadsheetService.getValue<number>({
+        sheetName: this.metadata.outputSheet.name,
+        addressString: this.metadata.outputSheet.netPresentValue10,
+      });
+
+      irr = this.spreadsheetService.getValue<number>({
+        sheetName: this.metadata.outputSheet.name,
+        addressString: this.metadata.outputSheet.internalRateOfReturn,
+      });
     } catch (error) {
       console.error(
-        `Error geothermal cost calculating point: ${error.message}`,
+        `Error geothermal cost calculating point: ${error.message}`
       );
     }
 
     return new GeothermalPointDto({
-      levelizedCostOfElectricity:
-        levelizedCostOfElectricity !== null
-          ? numberToFixed(levelizedCostOfElectricity, 2)
-          : levelizedCostOfElectricity,
+      levelizedCostOfElectricity: lcoe !== null ? numberToFixed(lcoe, 2) : lcoe,
+      npv10: npv10 !== null ? numberToFixed(npv10, 2) : npv10,
+      irr: irr !== null ? numberToFixed(irr, 2) : irr,
       temperature: reservoirTemperature,
       gradient,
       depth,
@@ -251,10 +264,10 @@ export class CalculationsService implements OnModuleInit {
   }
 
   private findLowestCostOfElectricityPoint(
-    points: DetailedGeothermalCostCalculationPointDto[],
+    points: DetailedGeothermalCostCalculationPointDto[]
   ): DetailedGeothermalCostCalculationPointDto {
     const notNullPoints = points.filter(
-      (point) => point.levelizedCostOfElectricity !== null,
+      (point) => point.levelizedCostOfElectricity !== null
     );
 
     const lowestPoint = notNullPoints.reduce((optimalPoint, currentPoint) => {

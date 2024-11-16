@@ -15,7 +15,6 @@ import { MapControls } from "../MapControls/MapControls";
 
 export function LeafletMap() {
   const { data: polygons } = usePolygons();
-  console.log('polygons on init', polygons);
   const { chartColor } = useRecoilValue(ColorState);
   const [loading, setLoading] = useState<boolean>(false);
   const [mapState, setMapState] = useState<L.Map>();

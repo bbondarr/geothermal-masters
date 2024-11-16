@@ -4,6 +4,8 @@ export class GeothermalPointDto {
   }
 
   levelizedCostOfElectricity: number;
+  npv10: number;
+  irr: number;
   temperature: number;
   gradient: number;
   depth: number;

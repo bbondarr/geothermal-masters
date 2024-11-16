@@ -38,7 +38,7 @@ export function useMarker() {
       const {
         data: { lowestPoint, points },
       } = res;
-
+      console.log(lowestPoint);
       const result: CostsMarker[] = points.map((point) => {
         if (point.lcoe === lowestPoint.levelizedCostOfElectricity) {
           const { levelizedCostOfElectricity, ...obj } = lowestPoint;
