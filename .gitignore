@@ -2,3 +2,9 @@ dist
 node_modules
 .DS_Store
 .env
+Metadata.json
+FinancialModel.xlsx
+Map.tif
+TestData.csv
+USGeoJSON.json
+VersionControl.json
