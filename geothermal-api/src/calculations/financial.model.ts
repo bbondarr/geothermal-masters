@@ -64,7 +64,7 @@ export class FinancialModel implements OnModuleInit {
     const temperature = gradient * depth;
 
     return new GeothermalPointDto({
-      levelizedCostOfElectricity: lcoe !== null ? numberToFixed(lcoe, 2) : lcoe,
+      lcoe: lcoe !== null ? numberToFixed(lcoe, 2) : lcoe,
       npv10: npv10 !== null ? numberToFixed(npv10, 2) : npv10,
       irr: irr !== null ? numberToFixed(irr, 2) : irr,
       temperature,

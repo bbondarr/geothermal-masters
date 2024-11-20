@@ -24,15 +24,9 @@ export class FinancialModel {
     let lcoe: number | null = null;
     let npv10: number | null = null;
     let irr: number | null = null;
-    let reservoirTemperature: number | null = null;
     let recalculatedDepthToBasement: number | null = null;
 
     try {
-      reservoirTemperature = this.spreadsheetService.getValue<number>({
-        sheetName: this.metadata.outputSheet.name,
-        addressString: this.metadata.outputSheet.temperature,
-      });
-
       recalculatedDepthToBasement = this.spreadsheetService.getValue<number>({
         sheetName: this.metadata.outputSheet.name,
         addressString: this.metadata.outputSheet.depthToBasement,
@@ -59,10 +53,10 @@ export class FinancialModel {
     }
 
     return new GeothermalPointDto({
-      levelizedCostOfElectricity: lcoe !== null ? numberToFixed(lcoe, 2) : lcoe,
+      lcoe: lcoe !== null ? numberToFixed(lcoe, 2) : lcoe,
       npv10: npv10 !== null ? numberToFixed(npv10, 2) : npv10,
       irr: irr !== null ? numberToFixed(irr, 2) : irr,
-      temperature: reservoirTemperature,
+      temperature: numberToFixed(gradient * depth, 2),
       gradient,
       depth,
       depthToBasement: recalculatedDepthToBasement,

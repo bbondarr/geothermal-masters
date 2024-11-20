@@ -3,7 +3,7 @@ export class GeothermalPointDto {
     Object.assign(this, value);
   }
 
-  levelizedCostOfElectricity: number;
+  lcoe: number;
   npv10: number;
   irr: number;
   temperature: number;

@@ -135,7 +135,7 @@ export class CalculationsService implements OnModuleInit {
 
     const regularPoints: GeothermalCostCalculationPointDto[] =
       intermediatePoints.map((point) => ({
-        lcoe: point.levelizedCostOfElectricity,
+        lcoe: point.lcoe,
         npv10: point.npv10,
         irr: point.irr,
         temperature: point.temperature,
