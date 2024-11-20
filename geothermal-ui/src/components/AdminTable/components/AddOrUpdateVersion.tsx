@@ -32,7 +32,7 @@ export function AddOrUpdateVersion(props: Readonly<AddOrUpdateVersionProps>) {
 
   const handleClose = () => {
     if (!isPending) {
-      // clear state
+      // Очищення стейту
       setMapFile(undefined)
       setModelFile(undefined)
       setMetadataFile(undefined)

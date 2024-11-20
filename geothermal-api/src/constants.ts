@@ -1,4 +1,3 @@
-// The value 3.3999999521443642e+38 is a common representation for missing or nodata values in raster data, including GeoTIFF images.
 export const GIS_NODATA_VALUE = 3.3999999521443642e38;
 export const MIN_CALCULATABLE_DEPTH_TO_BASEMENT = 0.1;
 export const GRID_SIZE = {

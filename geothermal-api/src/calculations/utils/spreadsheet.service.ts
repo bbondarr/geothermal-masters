@@ -4,39 +4,37 @@ import {
   HyperFormula,
   NoErrorCellValue,
   SimpleCellAddress,
-} from 'hyperformula';
-import * as XLSX from 'xlsx';
-import { excelCompatibleConfig as config } from './hf-config';
+} from "hyperformula";
+import * as XLSX from "xlsx";
+import { excelCompatibleConfig as config } from "./hf-config";
 import {
   InternalRateOfReturnPlugin,
   InternalRateOfReturnPluginTranslations,
-} from './hyperformula-plugins/internal-rate-of-return.plugin';
+} from "./hyperformula-plugins/internal-rate-of-return.plugin";
 import {
   GetOutputValueParams,
   SetInputValueParams,
-} from 'src/types/interfaces';
+} from "src/types/interfaces";
 
 export class SpreadsheetService {
   private hyperFormula: HyperFormula;
 
   constructor(fileBuffer: Buffer) {
-    const workbook = XLSX.read(fileBuffer, { type: 'buffer' });
+    const workbook = XLSX.read(fileBuffer, { type: "buffer" });
     this.hyperFormula = this.createFromWorkbookAndConfigure(workbook);
   }
 
   private createFromWorkbookAndConfigure(
-    workbook: XLSX.WorkBook,
+    workbook: XLSX.WorkBook
   ): HyperFormula {
     HyperFormula.registerFunctionPlugin(
       InternalRateOfReturnPlugin,
-      InternalRateOfReturnPluginTranslations,
+      InternalRateOfReturnPluginTranslations
     );
-    // Clear existing state
     const hyperFormula = HyperFormula.buildEmpty(config);
 
-    // Excel compatibility
-    hyperFormula.addNamedExpression('FALSE', '=FALSE()');
-    hyperFormula.addNamedExpression('TRUE', '=TRUE()');
+    hyperFormula.addNamedExpression("FALSE", "=FALSE()");
+    hyperFormula.addNamedExpression("TRUE", "=TRUE()");
 
     hyperFormula.suspendEvaluation();
 
@@ -44,15 +42,15 @@ export class SpreadsheetService {
       const workSheet = workbook.Sheets[workbookSheetName];
 
       const hfSheet = hyperFormula.addSheet(workbookSheetName);
-      const hfSheetId = hyperFormula.getSheetId(hfSheet)!;
+      const hfSheetId = hyperFormula.getSheetId(hfSheet);
 
       for (const [key, cell] of Object.entries(workSheet)) {
-        if (key.startsWith('!')) continue; // skip meta data
+        if (key.startsWith("!")) continue;
 
         const address = hyperFormula.simpleCellAddressFromString(
           key,
-          hfSheetId,
-        )!;
+          hfSheetId
+        );
 
         const shouldUseFormula = cell.f;
 
@@ -65,7 +63,7 @@ export class SpreadsheetService {
 
     hyperFormula.resumeEvaluation();
 
-    // Without it, dependencies are not tracked completely!
+    // Щоб залежності правильно білдились
     hyperFormula.rebuildAndRecalculate();
 
     return hyperFormula;
@@ -78,12 +76,12 @@ export class SpreadsheetService {
   }: SetInputValueParams): ExportedCellChange[] {
     const cellAddress = this.getCellSimpleAddressFromString(
       sheetName,
-      addressString,
+      addressString
     );
 
     return this.hyperFormula.setCellContents(
       cellAddress,
-      value,
+      value
     ) as ExportedCellChange[];
   }
 
@@ -93,14 +91,14 @@ export class SpreadsheetService {
   }: GetOutputValueParams): T {
     const cellAddress = this.getCellSimpleAddressFromString(
       sheetName,
-      addressString,
+      addressString
     );
     const rawValue = this.hyperFormula.getCellValue(cellAddress);
 
     if (rawValue instanceof DetailedCellError) {
       console.log(rawValue);
       throw new Error(
-        `Invalid value in sheet ${sheetName}, address: ${addressString}, ${rawValue}`,
+        `Invalid value in sheet ${sheetName}, address: ${addressString}, ${rawValue}`
       );
     }
 
@@ -109,13 +107,13 @@ export class SpreadsheetService {
 
   private getCellSimpleAddressFromString(
     sheetName: string,
-    addressString: string,
+    addressString: string
   ): SimpleCellAddress {
-    const sheetId = this.hyperFormula.getSheetId(sheetName)!;
+    const sheetId = this.hyperFormula.getSheetId(sheetName);
 
     return this.hyperFormula.simpleCellAddressFromString(
       addressString,
-      sheetId,
-    )!;
+      sheetId
+    );
   }
 }

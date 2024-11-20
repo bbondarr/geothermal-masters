@@ -41,9 +41,8 @@ export function MapContainer({ locations }: Readonly<MapProps>) {
       setMarkersList((prevState) => {
         const newState = [...prevState];
 
-        // markers max length === 3
+        // Максиму маркерів на відображенні === 3
         if (newState.length === 3) {
-          // delete marker from map and state
           newState[0].map = null;
           newState.shift();
         };

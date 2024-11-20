@@ -103,7 +103,7 @@ export class ChoroplethCalculationsService {
       polygonCoords.length === 0 ||
       polygonCoords[0].length < 4
     ) {
-      // Skip polygons with invalid coordinates
+      // Пропуск полігона з невірними координатами
       return 0;
     }
 

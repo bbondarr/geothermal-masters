@@ -51,7 +51,6 @@ export function Table() {
     }
   };
 
-  // Function to close the pop-up
   const handleClosePopup = () => {
     setSelectedRowIndex(null);
   };

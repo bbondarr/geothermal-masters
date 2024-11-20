@@ -32,7 +32,7 @@ export class GisService {
       const [sx, sy, sz] = scale;
       const [px, py, k, gx, gy, gz] = tiepoint;
       
-      // WGS-84 tiles have a "flipped" y component so I make it negative
+      // Цей формат WGS-84 має обернену у-координату, тому інвертую
       const geoToPixel = [-gx / sx, 1 / sx, 0, -gy / -sy, 0, 1 / -sy];
 
       const [x, y] = this.transform(longitude, latitude, geoToPixel, true);
@@ -40,7 +40,7 @@ export class GisService {
       const window = [x, y, x + 1, y + 1];
       const rasters = await this.image.readRasters({ window });
 
-      // Extract band values
+      // Дістаю значення з шарів
       const depthToBasement = rasters[0][0];
       const depth500Iso = rasters[1][0];
       const depth400Iso = rasters[2][0];

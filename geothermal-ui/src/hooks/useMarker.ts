@@ -69,7 +69,7 @@ export function useMarker() {
       setDatasets((state) => {
         const charts = [...state];
 
-        // chart max length === 3
+        // // Максиму ліній на графіку === 3
         if (charts.length === 3) {
           charts.shift();
         }

@@ -69,7 +69,7 @@ export const AxiosProvider: FC<PropsWithChildren> = (props) => {
             severity: 'error',
           });
 
-          // clear cognito keys
+          // очистити ключі cognito
           localStorage.clear();
           navigate('/');
           throw e;

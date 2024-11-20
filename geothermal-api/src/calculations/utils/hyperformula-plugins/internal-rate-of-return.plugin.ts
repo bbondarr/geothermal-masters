@@ -41,8 +41,8 @@ export class InternalRateOfReturnPlugin extends FunctionPlugin {
   }
 
   private calculateIRR(cashFlows: number[]): number {
-    const epsilon = 0.0001; // tolerance level
-    const maxIterations = 1000; // maximum number of iterations
+    const epsilon = 0.0001;
+    const maxIterations = 1000;
     let guess = 0.1;
 
     for (let i = 0; i < maxIterations; i++) {

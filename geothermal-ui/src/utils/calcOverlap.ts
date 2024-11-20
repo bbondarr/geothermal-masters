@@ -4,7 +4,7 @@ export function calcOverlapStatus(
   { data }: ChartState,
   state: ChartState[]
 ): boolean {
-  // Almost half of the graph overlaps
+  // Якщо половина графіка функції перетинається то не відображаю
   const overlappingQuantity = 2;
   const maxLcoeValue = 200;
   const maxTemperatureValue = 500;

@@ -6,7 +6,6 @@ import { FileLoaderService } from 'src/file-loader/file-loader.service';
 import { VersionControlRepository } from 'src/repositories/version-control.repository';
 import { MetadataRepository } from 'src/repositories/metadata.repository';
 import { GisRepository } from 'src/repositories/gis.repository';
-import { TestDataRepository } from 'src/repositories/test-data.repository';
 import { FinancialModelRepository } from 'src/repositories/financial-model.repository';
 
 @Module({
@@ -18,7 +17,6 @@ import { FinancialModelRepository } from 'src/repositories/financial-model.repos
     MetadataRepository,
     FinancialModelRepository,
     GisRepository,
-    TestDataRepository,
   ],
   exports: [CalculationsService],
 })

@@ -35,7 +35,6 @@ export class DepthRangeService {
     let row = 0;
     let drawdown: NoErrorCellValue;
 
-    // Skip invalid data
     do {
       row++;
       drawdown = this.spreadsheetService.getValue({
@@ -44,7 +43,6 @@ export class DepthRangeService {
       });
     } while (typeof drawdown !== 'number');
 
-    // Start reading valid data
     while (drawdown !== null) {
       if (isNotNaNFiniteNumber(drawdown) && drawdown !== 0) {
         const gradient = this.spreadsheetService.getValue<number>({

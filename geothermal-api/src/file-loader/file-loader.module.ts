@@ -5,7 +5,6 @@ import { MetadataRepository } from '../repositories/metadata.repository';
 import { GisRepository } from 'src/repositories/gis.repository';
 import { FinancialModelRepository } from 'src/repositories/financial-model.repository';
 import { VersionControlRepository } from 'src/repositories/version-control.repository';
-import { TestDataRepository } from 'src/repositories/test-data.repository';
 
 @Module({
   imports: [StorageModule],
@@ -15,7 +14,6 @@ import { TestDataRepository } from 'src/repositories/test-data.repository';
     GisRepository,
     FinancialModelRepository,
     VersionControlRepository,
-    TestDataRepository,
   ],
 })
 export class FileLoaderModule {}

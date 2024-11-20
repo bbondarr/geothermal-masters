@@ -1,7 +1,6 @@
 import { BadRequestException, Injectable, OnModuleInit } from "@nestjs/common";
 import { SpreadsheetService } from "./utils/spreadsheet.service";
 import { GisService } from "src/calculations/utils/gis.service";
-
 import { DepthRangeService } from "./utils/depthrange.service";
 import { FileLoaderService } from "../file-loader/file-loader.service";
 import { numberToFixed } from "../helpers/helpers";
@@ -9,20 +8,19 @@ import { GeothermalCostCalculationsDto } from "../dto/calculations/geothermal-co
 import { GeothermalService } from "./utils/geothermal.service";
 import { DetailedGeothermalCostCalculationPointDto } from "src/dto/calculations/detailed-geothermal-cost-calculation-point.dto";
 import { SpreadsheetMetadataDto } from "src/dto/metadata/spreadsheet-metadata.dto";
-import { Input } from "src/types/interfaces";
 import { GeothermalCostCalculationPointDto } from "../dto/calculations/geothermal-cost-calculations-point.dto";
 import { VersionControlRepository } from "src/repositories/version-control.repository";
-import { GeothermalPointDto } from "src/dto/calculations/geothermal-point.dto";
 import { GIS_NODATA_VALUE } from "src/constants";
+import { IFinancialModel } from "./financial.model";
+import { FinancialModel } from "./utils/hf.financial.model";
 
 @Injectable()
 export class CalculationsService implements OnModuleInit {
   private defaultDepths: number;
-  private metadata: SpreadsheetMetadataDto;
-  private spreadsheetService: SpreadsheetService;
   private gisService: GisService;
   private depthRange: DepthRangeService;
   private geothermalService: GeothermalService;
+  private financialModel: IFinancialModel;
 
   constructor(
     private readonly fileLoaderService: FileLoaderService,
@@ -58,16 +56,14 @@ export class CalculationsService implements OnModuleInit {
     metadataFileBuffer: Buffer
   ): void {
     this.defaultDepths = Number(process.env.DEFAULT_DEPTHS) || 6;
-    this.metadata = new SpreadsheetMetadataDto(
+    const metadata = new SpreadsheetMetadataDto(
       JSON.parse(metadataFileBuffer.toString())
     );
     this.gisService = new GisService(gisFileBuffer);
-    this.spreadsheetService = new SpreadsheetService(calculationFileBuffer);
-    this.depthRange = new DepthRangeService(
-      this.spreadsheetService,
-      this.metadata
-    );
+    const spreadsheetService = new SpreadsheetService(calculationFileBuffer);
+    this.depthRange = new DepthRangeService(spreadsheetService, metadata);
     this.geothermalService = new GeothermalService();
+    this.financialModel = new FinancialModel(metadata, spreadsheetService);
   }
 
   public async calculateGeothermalPoints(
@@ -118,7 +114,6 @@ export class CalculationsService implements OnModuleInit {
       });
     }
 
-    // the value must be exactly one decimal place, otherwise the formula will return an error
     const parsedDepthToBasement = numberToFixed(depthToBasement, 1);
 
     const depths = this.depthRange.getWorthyDepthRangeForGradient(
@@ -126,7 +121,7 @@ export class CalculationsService implements OnModuleInit {
       this.defaultDepths
     );
     const intermediatePoints = depths.map((depth) =>
-      this.calculateGeothermalPointByDepth(
+      this.financialModel.calculateFinancialStatistics(
         gradient,
         depth,
         parsedDepthToBasement
@@ -186,83 +181,6 @@ export class CalculationsService implements OnModuleInit {
     });
   }
 
-  private calculateGeothermalPointByDepth(
-    gradient: number,
-    depth: number,
-    depthToBasement: number
-  ): GeothermalPointDto {
-    this.setInputValuesAndRecalculate({
-      gradient,
-      depth: depth,
-      depthToBasement: depthToBasement,
-    });
-
-    let lcoe: number | null = null;
-    let npv10: number | null = null;
-    let irr: number | null = null;
-    let reservoirTemperature: number | null = null;
-    let recalculatedDepthToBasement: number | null = null;
-
-    try {
-      reservoirTemperature = this.spreadsheetService.getValue<number>({
-        sheetName: this.metadata.outputSheet.name,
-        addressString: this.metadata.outputSheet.temperature,
-      });
-
-      recalculatedDepthToBasement = this.spreadsheetService.getValue<number>({
-        sheetName: this.metadata.outputSheet.name,
-        addressString: this.metadata.outputSheet.depthToBasement,
-      });
-
-      lcoe = this.spreadsheetService.getValue<number>({
-        sheetName: this.metadata.outputSheet.name,
-        addressString: this.metadata.outputSheet.levelizedCostOfElectricity,
-      });
-
-      npv10 = this.spreadsheetService.getValue<number>({
-        sheetName: this.metadata.outputSheet.name,
-        addressString: this.metadata.outputSheet.netPresentValue10,
-      });
-
-      irr = this.spreadsheetService.getValue<number>({
-        sheetName: this.metadata.outputSheet.name,
-        addressString: this.metadata.outputSheet.internalRateOfReturn,
-      });
-    } catch (error) {
-      console.error(
-        `Error geothermal cost calculating point: ${error.message}`
-      );
-    }
-
-    return new GeothermalPointDto({
-      levelizedCostOfElectricity: lcoe !== null ? numberToFixed(lcoe, 2) : lcoe,
-      npv10: npv10 !== null ? numberToFixed(npv10, 2) : npv10,
-      irr: irr !== null ? numberToFixed(irr, 2) : irr,
-      temperature: reservoirTemperature,
-      gradient,
-      depth,
-      depthToBasement: recalculatedDepthToBasement,
-    });
-  }
-
-  private setInputValuesAndRecalculate(input: Input): void {
-    this.spreadsheetService.setValue({
-      sheetName: this.metadata.inputSheet.name,
-      addressString: this.metadata.inputSheet.gradient,
-      value: input.gradient,
-    });
-    this.spreadsheetService.setValue({
-      sheetName: this.metadata.inputSheet.name,
-      addressString: this.metadata.inputSheet.depth,
-      value: input.depth,
-    });
-    this.spreadsheetService.setValue({
-      sheetName: this.metadata.inputSheet.name,
-      addressString: this.metadata.inputSheet.depthToBasement,
-      value: input.depthToBasement,
-    });
-  }
-
   private findLowestCostOfElectricityPoint(
     points: DetailedGeothermalCostCalculationPointDto[]
   ): DetailedGeothermalCostCalculationPointDto {
@@ -279,39 +197,4 @@ export class CalculationsService implements OnModuleInit {
 
     return new DetailedGeothermalCostCalculationPointDto(lowestPoint);
   }
-
-  // public calculateLcoeByDepthsAndGradient(
-  //   depths: DepthCollection,
-  //   gradient: number
-  // ): number {
-  //   const initialReservoirCapacity =
-  //     this.calculateInitialReservoirCapacity(depths, gradient);
-  //   const halfNumberOfWells =
-  //     this.generatorGrossCapacity / initialReservoirCapacity;
-
-  //   const capEx = this.calculateCapEx(halfNumberOfWells, halfNumberOfWells);
-
-  //   let electricityTotal = 0;
-  //   let opExTotal = 0;
-  //   for (let index = 0; index < this.lifetimeYears; index++) {
-  //     electricityTotal += this.calculateYearlyElectricity(initialReservoirCapacity);
-  //     opExTotal += this.calculateYearlyOpEx();
-  //   }
-
-  //   return (NPV(this.r, capEx) + NPV(this.r, opExTotal)) /
-  //     NPV(this.r, electricityTotal);
-  // }
-
-  // calculateInitialReservoirCapacity(depths: DepthCollection, gradient: number): number {
-  //   throw new Error('Method not implemented.');
-  // }
-  // calculateCapEx(halfNumberOfWells: number, halfNumberOfWells1: number): number {
-  //   throw new Error('Method not implemented.');
-  // }
-  // calculateYearlyElectricity(initialReservoirCapacity: number): number {
-  //   throw new Error('Method not implemented.');
-  // }
-  // calculateYearlyOpEx(): number {
-  //   throw new Error('Method not implemented.');
-  // }
 }

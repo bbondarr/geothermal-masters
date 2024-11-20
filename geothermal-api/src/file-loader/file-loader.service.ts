@@ -4,7 +4,6 @@ import { UploadFileNames } from 'src/types/enums';
 import { MetadataRepository } from 'src/repositories/metadata.repository';
 import { FinancialModelRepository } from 'src/repositories/financial-model.repository';
 import { GisRepository } from 'src/repositories/gis.repository';
-import { TestDataRepository } from 'src/repositories/test-data.repository';
 
 @Injectable()
 export class FileLoaderService {
@@ -14,10 +13,8 @@ export class FileLoaderService {
     private readonly metadataRepository: MetadataRepository,
     private readonly financialModelRepository: FinancialModelRepository,
     private readonly gisRepository: GisRepository,
-    private readonly testDataRepository: TestDataRepository,
   ) {}
 
-  // TODO: split in two with common interface; make into separate module and inject in Calculations
   public async loadLocalFiles(): Promise<Buffer[]> {
     const localFileNames = [
       UploadFileNames.Map,
@@ -46,7 +43,6 @@ export class FileLoaderService {
         this.gisRepository.getGisByVersion(version),
         this.financialModelRepository.getFinancialModelByVersion(version),
         this.metadataRepository.getMetadataByVersion(version),
-        this.testDataRepository.getTestDataByVersion(version),
       ];
 
       return await Promise.all(fileBufferPromises);

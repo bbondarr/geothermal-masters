@@ -109,7 +109,7 @@ export function LeafletMap() {
 
   useEffect(() => {
     if (mapState) {
-      // remove the listener to prevent duplication
+      // Забираю listener щоб уникнути повторення
       if (mapState.hasEventListeners('click')) {
         mapState.removeEventListener('click');
       };

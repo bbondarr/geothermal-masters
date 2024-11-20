@@ -6,7 +6,6 @@ import { ConfigModule } from '@nestjs/config';
 import { CalculationsModule } from './calculations/calculations.module';
 import { StorageModule } from './storage/storage.module';
 import { FileLoaderModule } from './file-loader/file-loader.module';
-import { ValidatorModule } from './validator/validator.module';
 
 @Module({
   imports: [
@@ -19,7 +18,6 @@ import { ValidatorModule } from './validator/validator.module';
     CalculationsModule,
     StorageModule,
     FileLoaderModule,
-    ValidatorModule,
   ],
 })
 export class AppModule {}
