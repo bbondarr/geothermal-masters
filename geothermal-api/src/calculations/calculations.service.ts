@@ -120,11 +120,12 @@ export class CalculationsService implements OnModuleInit {
       gradient,
       this.defaultDepths
     );
+    console.log(depths);
     const intermediatePoints = depths.map((depth) =>
       this.financialModel.calculateFinancialStatistics(
-        gradient,
         depth,
-        parsedDepthToBasement
+        parsedDepthToBasement,
+        gradient,
       )
     );
 
@@ -143,7 +144,7 @@ export class CalculationsService implements OnModuleInit {
         depth: point.depth,
         depthToBasement: point.depthToBasement,
       }));
-
+    console.log(regularPoints);
     if (regularPoints.length == 0) {
       throw new BadRequestException({
         error: {
@@ -185,12 +186,12 @@ export class CalculationsService implements OnModuleInit {
     points: DetailedGeothermalCostCalculationPointDto[]
   ): DetailedGeothermalCostCalculationPointDto {
     const notNullPoints = points.filter(
-      (point) => point.levelizedCostOfElectricity !== null
+      (point) => point.lcoe !== null
     );
 
     const lowestPoint = notNullPoints.reduce((optimalPoint, currentPoint) => {
-      return currentPoint.levelizedCostOfElectricity <
-        optimalPoint.levelizedCostOfElectricity
+      return currentPoint.lcoe <
+        optimalPoint.lcoe
         ? currentPoint
         : optimalPoint;
     }, notNullPoints[0]);

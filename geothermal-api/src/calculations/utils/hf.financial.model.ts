@@ -17,8 +17,8 @@ export class FinancialModel {
   ): GeothermalPointDto {
     this.setInputValuesAndRecalculate({
       gradient,
-      depth: depth,
-      depthToBasement: depthToBasement,
+      depth,
+      depthToBasement,
     });
 
     let lcoe: number | null = null;
@@ -47,9 +47,7 @@ export class FinancialModel {
         addressString: this.metadata.outputSheet.internalRateOfReturn,
       });
     } catch (error) {
-      console.error(
-        `Error geothermal cost calculating point: ${error.message}`
-      );
+      console.error(`Помилка в розрахунку: ${error.message}`);
     }
 
     return new GeothermalPointDto({

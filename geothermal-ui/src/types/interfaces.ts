@@ -17,7 +17,7 @@ export interface CostsMarker {
 }
 
 export interface LowestPointResponse {
-  levelizedCostOfElectricity: number;
+  lcoe: number;
   temperature: number;
   gradient: number;
   depth: number;

@@ -40,10 +40,10 @@ export function useMarker() {
       } = res;
       console.log(lowestPoint);
       const result: CostsMarker[] = points.map((point) => {
-        if (point.lcoe === lowestPoint.levelizedCostOfElectricity) {
-          const { levelizedCostOfElectricity, ...obj } = lowestPoint;
+        if (point.lcoe === lowestPoint.lcoe) {
+          const { lcoe, ...obj } = lowestPoint;
 
-          if (levelizedCostOfElectricity > 200) {
+          if (lcoe > 200) {
             setSnackBar({
               open: true,
               title: "Warning",
@@ -53,7 +53,7 @@ export function useMarker() {
           }
 
           return {
-            lcoe: levelizedCostOfElectricity,
+            lcoe: lcoe,
             lowestPoint: true,
             ...obj,
           };

@@ -7,6 +7,7 @@ import { VersionControlRepository } from 'src/repositories/version-control.repos
 import { MetadataRepository } from 'src/repositories/metadata.repository';
 import { GisRepository } from 'src/repositories/gis.repository';
 import { FinancialModelRepository } from 'src/repositories/financial-model.repository';
+import { FinancialModel } from './utils/hf.financial.model';
 
 @Module({
   imports: [FileLoaderModule, StorageModule],
@@ -16,6 +17,7 @@ import { FinancialModelRepository } from 'src/repositories/financial-model.repos
     VersionControlRepository,
     MetadataRepository,
     FinancialModelRepository,
+    FinancialModel,
     GisRepository,
   ],
   exports: [CalculationsService],
